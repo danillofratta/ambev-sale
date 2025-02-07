@@ -1,0 +1,14 @@
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\bin\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.deps.json
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\bin\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.runtimeconfig.json
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\bin\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\bin\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.pdb
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\refint\Ambev.Sale.Infrastructure.ORN.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.pdb
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.ORN.genruntimeconfig.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.Infrastructure\obj\Debug\net8.0\ref\Ambev.Sale.Infrastructure.ORN.dll

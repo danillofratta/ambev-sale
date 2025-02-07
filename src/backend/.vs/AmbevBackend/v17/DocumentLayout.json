@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\cancel\\cancelsalerequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\cancel\\cancelsalerequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEB8A825-59A0-4445-BA5F-2C0BA004341F}|src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.core.application\\sales\\modify\\modifysalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEB8A825-59A0-4445-BA5F-2C0BA004341F}|src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|solutionrelative:src\\ambev.sale.core.application\\sales\\modify\\modifysalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.infrastructure\\common\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|solutionrelative:src\\ambev.sale.infrastructure\\common\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3F8BC1D-9F44-453A-BCD5-E74EBE16ECE9}|src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.core.domain\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3F8BC1D-9F44-453A-BCD5-E74EBE16ECE9}|src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj|solutionrelative:src\\ambev.sale.core.domain\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEB8A825-59A0-4445-BA5F-2C0BA004341F}|src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.core.application\\sales\\modify\\modifysalecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEB8A825-59A0-4445-BA5F-2C0BA004341F}|src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|solutionrelative:src\\ambev.sale.core.application\\sales\\modify\\modifysalecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\modify\\modifysalerequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\modify\\modifysalerequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAowFwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:27:30.715Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CancelSaleRequestValidator.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Cancel\\CancelSaleRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Cancel\\CancelSaleRequestValidator.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Cancel\\CancelSaleRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Cancel\\CancelSaleRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:38:13.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Common\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.Infrastructure\\Common\\RepositoryBase.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Common\\RepositoryBase.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\Common\\RepositoryBase.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAgwFQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:34:26.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Repositories\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.Core.Domain\\Repositories\\SaleRepository.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Repositories\\SaleRepository.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.Core.Domain\\Repositories\\SaleRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAD4vxgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:34:08.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModifySaleHandler.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleHandler.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleHandler.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:30:28.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModifySaleCommandValidator.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleCommandValidator.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleCommandValidator.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleCommandValidator.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:29:34.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModifySaleRequestValidator.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Modify\\ModifySaleRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Modify\\ModifySaleRequestValidator.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Modify\\ModifySaleRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Modify\\ModifySaleRequestValidator.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:28:50.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

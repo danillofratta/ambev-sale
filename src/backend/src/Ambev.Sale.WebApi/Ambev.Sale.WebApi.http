@@ -1,0 +1,6 @@
+@Ambev.Sala.WebApi_HostAddress = http://localhost:5112
+
+GET {{Ambev.Sala.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\Ambev.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\Ambev.Common.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\Ambev.Common.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\Ambev.Common.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\Ambev.Common.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\bin\Debug\net8.0\Ambev.Common.deps.json
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\bin\Debug\net8.0\Ambev.Common.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\bin\Debug\net8.0\Ambev.Common.pdb
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\Ambev.Common.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\refint\Ambev.Common.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\Ambev.Common.pdb
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Common\obj\Debug\net8.0\ref\Ambev.Common.dll
