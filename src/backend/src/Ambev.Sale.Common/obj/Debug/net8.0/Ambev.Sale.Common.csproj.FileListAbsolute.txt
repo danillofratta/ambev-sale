@@ -23,3 +23,16 @@ C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Commo
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\refint\Ambev.Sale.Common.dll
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.pdb
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\ref\Ambev.Sale.Common.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\bin\Debug\net8.0\Ambev.Sale.Common.deps.json
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\bin\Debug\net8.0\Ambev.Sale.Common.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\bin\Debug\net8.0\Ambev.Sale.Common.pdb
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\refint\Ambev.Sale.Common.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.pdb
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b2\ambev-sale\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\ref\Ambev.Sale.Common.dll

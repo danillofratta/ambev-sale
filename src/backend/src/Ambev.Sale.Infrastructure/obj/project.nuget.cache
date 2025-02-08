@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lYA128QJH/wn+/PWwyF8QCHxtqLaQqUdtFIcjWhdUOygNW0YizG0HeTDxFtOHGRTHoJXHAtOkMzLftS3feP1vg==",
+  "dgSpecHash": "mNeofDequGjkhbxkKXxH0DxsvgW0FxbTPwoiSBmu5RXjlFhrbHCajCNrzfEsmkeN0CFr/lhBTKhYUBHme1Dv2w==",
   "success": true,
-  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj",
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b2\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

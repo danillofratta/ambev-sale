@@ -1,28 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\modify\\modifysaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\modify\\modifysaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\getlist\\getlistsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\getlist\\getlistsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\get\\getsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\get\\getsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\create\\createsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\create\\createsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\cancel\\cancelsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\cancel\\cancelsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b2\\ambev-sale\\src\\backend\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,71 +34,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModifySaleResponse.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Modify\\ModifySaleResponse.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Modify\\ModifySaleResponse.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Modify\\ModifySaleResponse.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Modify\\ModifySaleResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T12:08:38.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetListSaleResponse.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\GetList\\GetListSaleResponse.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\GetList\\GetListSaleResponse.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\GetList\\GetListSaleResponse.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\GetList\\GetListSaleResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T12:08:34.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetSaleResponse.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Get\\GetSaleResponse.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Get\\GetSaleResponse.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Get\\GetSaleResponse.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Get\\GetSaleResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T12:08:28.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateSaleResponse.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Create\\CreateSaleResponse.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Create\\CreateSaleResponse.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Create\\CreateSaleResponse.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Create\\CreateSaleResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T12:08:23.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CancelSaleResponse.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Cancel\\CancelSaleResponse.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Cancel\\CancelSaleResponse.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Cancel\\CancelSaleResponse.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\Cancel\\CancelSaleResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T12:08:19.903Z",
-              "EditorCaption": ""
             }
           ]
         },

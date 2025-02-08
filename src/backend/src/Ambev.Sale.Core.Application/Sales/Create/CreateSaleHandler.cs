@@ -16,12 +16,14 @@ namespace Ambev.Sale.Core.Application.Sales.Create
         private readonly ISaleRepository _repository;
         private readonly IMapper _mapper;
         private readonly SaleDiscountService _discountService;
+        private readonly IMediator _mediator;
 
-        public CreateSaleHandler(SaleDiscountService discountService, ISaleRepository repository, IMapper mapper)
+        public CreateSaleHandler(IMediator mediator, SaleDiscountService discountService, ISaleRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
             _discountService = discountService;
+            _mediator = mediator;
         }
 
         public async Task<CreateSaleResult> Handle(CreateSaleCommand command, CancellationToken cancellationToken)
@@ -40,11 +42,19 @@ namespace Ambev.Sale.Core.Application.Sales.Create
             _discountService.ValidateSaleItems(record.SaleItems);
             if (_discountService.IsValid)
             {
-                //todo
+                //todo verify to put on domain
                 record.TotalAmount = record.SaleItems.Sum(x => x.TotalPrice);
 
                 var created = await _repository.SaveAsync(record);
                 var result = _mapper.Map<CreateSaleResult>(created);
+
+                await _mediator.Publish(new CreateSaleResult
+                {
+                    Id = result.Id,
+                    Number = result.Number
+                });
+                await Task.FromResult("Sale Created");
+
                 return result;
             }
             return null;            
