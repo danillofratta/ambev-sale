@@ -18,6 +18,7 @@ C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Commo
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.AssemblyInfoInputs.cache
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.AssemblyInfo.cs
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.dll
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\refint\Ambev.Sale.Common.dll
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Common\obj\Debug\net8.0\Ambev.Sale.Common.pdb

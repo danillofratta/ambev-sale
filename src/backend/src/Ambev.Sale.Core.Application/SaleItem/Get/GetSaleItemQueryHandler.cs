@@ -5,17 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
-using Ambev.Sale.Core.Domain.Repository;
 using AutoMapper;
+using Ambev.Sale.Core.Domain.Repository;
 
 namespace Ambev.Sale.Core.Application.SalesItem.Get;
 
 public class GetSaleItemQueryHandler : IRequestHandler<GetSaleItemQuery, GetSaleItemQueryResult>
 {
-    private readonly SaleItemRepository _repository;
+    private readonly ISaleItemRepository _repository;
     private readonly IMapper _mapper;
 
-    public GetSaleItemQueryHandler(SaleItemRepository repository, IMapper mapper)
+    public GetSaleItemQueryHandler(ISaleItemRepository repository, IMapper mapper)
     {
         _repository = repository;
         _mapper = mapper;

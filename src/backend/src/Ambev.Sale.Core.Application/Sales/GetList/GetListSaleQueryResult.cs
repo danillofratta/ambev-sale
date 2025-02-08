@@ -18,7 +18,7 @@ namespace Ambev.Sale.Core.Application.Sales.GetList
 
         public decimal TotalAmount { get; set; }
 
-        public Ambev.Sale.Infrastructure.ORN.Enum.SaleStatus Status { get; set; }
+        public Ambev.Sale.Core.Domain.Enum.SaleStatus Status { get; set; }
 
         public List<GetSaleItemDto> SaleItems { get; set; }
     }

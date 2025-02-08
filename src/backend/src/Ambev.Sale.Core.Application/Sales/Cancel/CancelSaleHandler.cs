@@ -5,17 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
-using Ambev.Sale.Core.Domain.Repository;
 using AutoMapper;
+using Ambev.Sale.Core.Domain.Repository;
 
 namespace Ambev.Sale.Core.Application.Sales.Modify
 {
     public class CancelSaleHandler : IRequestHandler<CancelSaleCommand, CancelSaleResult>
     {
-        private readonly SaleRepository _repository;
+        private readonly ISaleRepository _repository;
         private readonly IMapper _mapper;
 
-        public CancelSaleHandler(SaleRepository repository, IMapper mapper)
+        public CancelSaleHandler(ISaleRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
@@ -28,9 +28,8 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
             if (validationResult != null && !validationResult.IsValid)                
                 throw new ValidationException(validationResult.Errors);
 
-            //var record = _mapper.Map<Ambev.Sale.Infrastructure.ORN.Entities.Sale>(command);
             var record = await _repository.GetByIdAsync(command.id);
-            record.Status = Infrastructure.ORN.Enum.SaleStatus.Cancelled;
+            record.Status = Ambev.Sale.Core.Domain.Enum.SaleStatus.Cancelled;
             
             var update = await _repository.UpdateAsync(record);
             

@@ -16,7 +16,7 @@ namespace Ambev.Sale.Core.Application.Sales.Get
         public string BranchId { get; set; }
         public string BranchName { get; set; } = string.Empty;
 
-        public Ambev.Sale.Infrastructure.ORN.Enum.SaleStatus Status { get; set; }
+        public Ambev.Sale.Core.Domain.Enum.SaleStatus Status { get; set; }
 
         public List<GetSaleItemDto> SaleItems { get; set; }
     }

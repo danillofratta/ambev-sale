@@ -1,17 +1,14 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
-using Ambev.Sale.Infrastructure.ORN.Entities;
-using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.Extensions.Configuration;
+using Ambev.Sale.Core.Domain.Entities;
 
-
-namespace Ambev.Sale.Infrastructure.ORN;
+namespace Ambev.Sale.Infrastructure.ORM;
 
 public class DefaultDbContext : DbContext
 {
 
-    public DbSet<Ambev.Sale.Infrastructure.ORN.Entities.Sale> Sales { get; set; }
-    public DbSet<SaleItem> SaleItems { get; set; }
+    public DbSet<Ambev.Sale.Core.Domain.Entities.Sale> Sales { get; set; }
+    public DbSet<Ambev.Sale.Core.Domain.Entities.SaleItem> SaleItems { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -39,7 +36,7 @@ public class DefaultDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Ambev.Sale.Infrastructure.ORN.Entities.Sale>()
+        modelBuilder.Entity<Ambev.Sale.Core.Domain.Entities.Sale>()
             .HasMany(s => s.SaleItems)
             .WithOne(si => si.Sale)
             .HasForeignKey(si => si.SaleId);

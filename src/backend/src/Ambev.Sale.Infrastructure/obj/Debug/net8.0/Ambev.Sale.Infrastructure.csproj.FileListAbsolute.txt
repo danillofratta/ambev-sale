@@ -21,8 +21,12 @@ C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infra
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.AssemblyInfoInputs.cache
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.AssemblyInfo.cs
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sa.5F6B5BDC.Up2Date
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.dll
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\refint\Ambev.Sale.Infrastructure.dll
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.pdb
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\Ambev.Sale.Infrastructure.genruntimeconfig.cache
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\obj\Debug\net8.0\ref\Ambev.Sale.Infrastructure.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\bin\Debug\net8.0\Ambev.Sale.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.Infrastructure\bin\Debug\net8.0\Ambev.Sale.Core.Domain.pdb

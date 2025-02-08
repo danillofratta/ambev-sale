@@ -5,19 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
-using Ambev.Sale.Core.Domain.Repository;
 using AutoMapper;
 using Ambev.Sale.Core.Domain.Service;
+using Ambev.Sale.Core.Domain.Repository;
 
 namespace Ambev.Sale.Core.Application.Sales.Create
 {
     public class CreateSaleHandler : IRequestHandler<CreateSaleCommand, CreateSaleResult>
     {
-        private readonly SaleRepository _repository;
+        private readonly ISaleRepository _repository;
         private readonly IMapper _mapper;
         private readonly SaleDiscountService _discountService;
 
-        public CreateSaleHandler(SaleDiscountService discountService, SaleRepository repository, IMapper mapper)
+        public CreateSaleHandler(SaleDiscountService discountService, ISaleRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
@@ -32,10 +32,10 @@ namespace Ambev.Sale.Core.Application.Sales.Create
             if (validationResult != null && !validationResult.IsValid)                
                 throw new ValidationException(validationResult.Errors);
             
-            var record = _mapper.Map<Ambev.Sale.Infrastructure.ORN.Entities.Sale>(command);
+            var record = _mapper.Map<Ambev.Sale.Core.Domain.Entities.Sale>(command);
             //todo 
-            record.Status = Ambev.Sale.Infrastructure.ORN.Enum.SaleStatus.NotCancelled;            
-            record.SaleItems.ForEach(x => x.Status = Ambev.Sale.Infrastructure.ORN.Enum.SaleItemStatus.NotCancelled);
+            record.Status = Ambev.Sale.Core.Domain.Enum.SaleStatus.NotCancelled;            
+            record.SaleItems.ForEach(x => x.Status = Ambev.Sale.Core.Domain.Enum.SaleItemStatus.NotCancelled);
 
             _discountService.ValidateSaleItems(record.SaleItems);
             if (_discountService.IsValid)

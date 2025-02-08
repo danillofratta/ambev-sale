@@ -1,5 +1,5 @@
 ﻿using Ambev.Sale.Core.Application.Sales.Dto;
-using Ambev.Sale.Infrastructure.ORN.Entities;
+using Ambev.Sale.Core.Domain.Entities;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -13,8 +13,8 @@ namespace Ambev.Sale.Core.Application.SaleItem.Cancel
     {
         public CancelSaleItemProfile()
         {       
-            CreateMap<CancelSaleItemCommand, Ambev.Sale.Infrastructure.ORN.Entities.SaleItem>();
-            CreateMap<Ambev.Sale.Infrastructure.ORN.Entities.SaleItem, CancelSaleItemResult>();            
+            CreateMap<CancelSaleItemCommand, Ambev.Sale.Core.Domain.Entities.SaleItem>();
+            CreateMap<Ambev.Sale.Core.Domain.Entities.SaleItem, CancelSaleItemResult>();            
         }
     }
 }

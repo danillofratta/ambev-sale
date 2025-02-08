@@ -1,6 +1,4 @@
 using Ambev.Sale.Core.Domain.Repository;
-using Ambev.Sale.WebApi.Controllers.Sale.Create;
-using Ambev.Sale.WebApi.Controllers.Sale.Modify;
 using FluentValidation;
 
 namespace Ambev.Sale.WebApi.Controllers.Sale.Modify;
@@ -10,9 +8,9 @@ namespace Ambev.Sale.WebApi.Controllers.Sale.Modify;
 /// </summary>
 public class ModifySaleRequestValidator : AbstractValidator<ModifySaleRequest>
 {
-    private readonly SaleRepository _repository;
+    private readonly ISaleRepository _repository;
 
-    public ModifySaleRequestValidator(SaleRepository repository)
+    public ModifySaleRequestValidator(ISaleRepository repository)
     {
         _repository = repository;
 

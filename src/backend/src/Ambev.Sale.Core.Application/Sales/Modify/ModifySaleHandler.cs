@@ -5,18 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
-using Ambev.Sale.Core.Domain.Repository;
 using AutoMapper;
 using Ambev.Sale.Core.Application.Sales.Create;
+using Ambev.Sale.Core.Domain.Repository;
 
 namespace Ambev.Sale.Core.Application.Sales.Modify
 {
     public class ModifySaleHandler : IRequestHandler<ModifySaleCommand, ModifySaleResult>
     {
-        private readonly SaleRepository _repository;
+        private readonly ISaleRepository _repository;
         private readonly IMapper _mapper;
 
-        public ModifySaleHandler(SaleRepository repository, IMapper mapper)
+        public ModifySaleHandler(ISaleRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
@@ -30,7 +30,7 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
             if (validationResult != null && !validationResult.IsValid)                
                 throw new ValidationException(validationResult.Errors);
 
-            var record = _mapper.Map<Ambev.Sale.Infrastructure.ORN.Entities.Sale>(command);
+            var record = _mapper.Map< Ambev.Sale.Core.Domain.Entities.Sale >(command);
             
             var update = await _repository.UpdateAsync(record);
             var result = _mapper.Map<ModifySaleResult>(update);

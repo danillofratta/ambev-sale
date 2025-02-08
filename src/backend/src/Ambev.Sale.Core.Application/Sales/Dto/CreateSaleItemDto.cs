@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ambev.Sale.Core.Domain.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,5 @@ public record CreateSaleItemDto
     decimal UnitPrice ,
     decimal Discount ,
     decimal TotalPrice,
-    Ambev.Sale.Infrastructure.ORN.Enum.SaleStatus Status 
+    SaleStatus Status 
 );

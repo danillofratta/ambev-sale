@@ -1,5 +1,5 @@
 ﻿using Ambev.Sale.Core.Application.Sales.Dto;
-using Ambev.Sale.Infrastructure.ORN.Entities;
+using Ambev.Sale.Core.Domain.Entities;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ public class GetSaleItemQueryProfile : Profile
 {
     public GetSaleItemQueryProfile()
     {
-        CreateMap<Ambev.Sale.Infrastructure.ORN.Entities.SaleItem, GetSaleItemQueryResult>();               
+        CreateMap<Ambev.Sale.Core.Domain.Entities.SaleItem, GetSaleItemQueryResult>();               
     }
 }
 

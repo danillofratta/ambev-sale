@@ -12,9 +12,9 @@ namespace Ambev.Sale.Core.Application.SaleItem.Cancel
 {
     public class CancelSaleItemCommandValidator : AbstractValidator<CancelSaleItemCommand>
     {
-        private readonly SaleItemRepository _repository;
+        private readonly ISaleItemRepository _repository;
 
-        public CancelSaleItemCommandValidator(SaleItemRepository repository)
+        public CancelSaleItemCommandValidator(ISaleItemRepository repository)
         {
             _repository = repository;
 

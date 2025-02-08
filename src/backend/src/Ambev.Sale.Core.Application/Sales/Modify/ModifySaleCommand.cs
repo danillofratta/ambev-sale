@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ambev.Sale.Core.Application.Sales.Dto;
+using Ambev.Sale.Core.Domain.Enum;
 using MediatR;
 
 namespace Ambev.Sale.Core.Application.Sales.Modify
@@ -17,7 +18,7 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
         public string BranchId { get; set; }
         public string BranchName { get; set; } = string.Empty;
 
-        public Ambev.Sale.Infrastructure.ORN.Enum.SaleStatus Status { get; set; }
+        public SaleStatus Status { get; set; }
 
         public List<ModifySaleItemDto> SaleItems { get; set; } = new();
     }

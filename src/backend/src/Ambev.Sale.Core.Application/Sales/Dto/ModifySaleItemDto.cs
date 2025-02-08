@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ambev.Sale.Core.Domain.Enum;
 
 namespace Ambev.Sale.Core.Application.Sales.Dto;
 
@@ -16,5 +17,5 @@ public record ModifySaleItemDto
     decimal UnitPrice ,
     decimal Discount ,
     decimal TotalPrice,
-    Ambev.Sale.Infrastructure.ORN.Enum.SaleStatus Status 
+    SaleStatus Status 
 );

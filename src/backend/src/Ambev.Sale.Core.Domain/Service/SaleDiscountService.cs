@@ -1,4 +1,4 @@
-﻿using Ambev.Sale.Infrastructure.ORN.Entities;
+﻿using Ambev.Sale.Core.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

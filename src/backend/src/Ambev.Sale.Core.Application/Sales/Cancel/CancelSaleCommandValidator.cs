@@ -12,8 +12,8 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
 {
     public class CancelSaleCommandValidator : AbstractValidator<CancelSaleCommand>
     {
-        private readonly SaleRepository _repository;
-        public CancelSaleCommandValidator(SaleRepository repository)
+        private readonly ISaleRepository _repository;
+        public CancelSaleCommandValidator(ISaleRepository repository)
         {
             _repository = repository;
 

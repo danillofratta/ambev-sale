@@ -1,4 +1,5 @@
 ﻿using Ambev.Sale.Core.Application.Sales.Dto;
+using Ambev.Sale.Core.Domain.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,6 @@ namespace Ambev.Sale.Core.Application.SalesItem.Get
         public decimal Discount { get; set; }
         public decimal TotalPrice { get; set; }
 
-        public Ambev.Sale.Infrastructure.ORN.Enum.SaleItemStatus Status { get; set; }
+        public SaleItemStatus Status { get; set; }
     }
 }

@@ -12,10 +12,10 @@ using System.Threading.Tasks;
 namespace Ambev.Sale.Core.Application.Sales.GetList;
 public class GetListSaleQueryHandler : IRequestHandler<GetListSaleQuery, PagedResult<GetListSaleQueryResult>>
 {
-    private readonly SaleRepository _repository;
+    private readonly ISaleRepository _repository;
     private readonly IMapper _mapper;
 
-    public GetListSaleQueryHandler(SaleRepository repository, IMapper mapper)
+    public GetListSaleQueryHandler(ISaleRepository repository, IMapper mapper)
     {
         _repository = repository;
         _mapper = mapper;

@@ -1,5 +1,4 @@
 ﻿using Ambev.Sale.Core.Application.Sales.Dto;
-using Ambev.Sale.Infrastructure.ORN.Entities;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -14,11 +13,11 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
         public ModifySaleProfile()
         {
         
-            CreateMap<ModifySaleCommand, Ambev.Sale.Infrastructure.ORN.Entities.Sale>()
+            CreateMap<ModifySaleCommand, Ambev.Sale.Core.Domain.Entities.Sale>()
                    .ForMember(dto => dto.SaleItems, conf => conf.MapFrom(ol => ol.SaleItems));
 
-            CreateMap<ModifySaleItemDto, Ambev.Sale.Infrastructure.ORN.Entities.SaleItem>();
-            CreateMap< Ambev.Sale.Infrastructure.ORN.Entities.Sale, ModifySaleResult>();
+            CreateMap<ModifySaleItemDto, Ambev.Sale.Core.Domain.Entities.SaleItem>();
+            CreateMap<Ambev.Sale.Core.Domain.Entities.Sale, ModifySaleResult>();
         }
     }
 }

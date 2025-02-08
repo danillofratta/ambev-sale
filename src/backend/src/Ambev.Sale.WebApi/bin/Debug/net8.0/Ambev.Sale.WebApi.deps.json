@@ -286,9 +286,6 @@
         }
       },
       "Ambev.Sale.Core.Domain/1.0.0": {
-        "dependencies": {
-          "Ambev.Sale.Infrastructure": "1.0.0"
-        },
         "runtime": {
           "Ambev.Sale.Core.Domain.dll": {
             "assemblyVersion": "1.0.0",
@@ -298,6 +295,7 @@
       },
       "Ambev.Sale.Infrastructure/1.0.0": {
         "dependencies": {
+          "Ambev.Sale.Core.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.2",
           "Microsoft.Extensions.Configuration": "9.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",

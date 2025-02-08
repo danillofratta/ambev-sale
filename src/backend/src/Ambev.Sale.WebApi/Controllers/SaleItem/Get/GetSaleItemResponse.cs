@@ -1,5 +1,5 @@
 ﻿using Ambev.Sale.Core.Application.Sales.Dto;
-using Ambev.Sale.Infrastructure.ORN.Enum;
+using Ambev.Sale.Core.Domain.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;

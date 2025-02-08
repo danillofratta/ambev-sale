@@ -916,6 +916,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Ambev.Sale.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ambev.Sale.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ambev.Sale.Core.Domain.dll": {}
+        }
       }
     }
   },
@@ -2369,10 +2379,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Ambev.Sale.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ambev.Sale.Core.Domain/Ambev.Sale.Core.Domain.csproj",
+      "msbuildProject": "../Ambev.Sale.Core.Domain/Ambev.Sale.Core.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Ambev.Sale.Core.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
       "Microsoft.Extensions.Configuration >= 9.0.1",
@@ -2416,7 +2432,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

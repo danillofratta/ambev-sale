@@ -1,5 +1,4 @@
 ﻿using Ambev.Sale.Core.Application.Sales.Dto;
-using Ambev.Sale.Infrastructure.ORN.Entities;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -13,7 +12,7 @@ namespace Ambev.Sale.Core.Application.Sales.GetList
     {
         public GetListSaleQueryProfile()
         {
-            CreateMap<Ambev.Sale.Infrastructure.ORN.Entities.Sale, GetListSaleQueryResult>()
+            CreateMap< Ambev.Sale.Core.Domain.Entities.Sale, GetListSaleQueryResult>()
                    .ForMember(dto => dto.SaleItems, conf => conf.MapFrom(ol => ol.SaleItems));
 
         }

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
+﻿using Ambev.Sale.Core.Domain;
+using Ambev.Sale.Infrastructure.ORM;
 
-namespace Ambev.Sale.Infrastructure.ORN.Common
+
+namespace Ambev.Sale.Infrastructure.Common
 {
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {

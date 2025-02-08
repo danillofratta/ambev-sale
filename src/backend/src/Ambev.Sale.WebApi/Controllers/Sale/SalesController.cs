@@ -22,9 +22,9 @@ public class SalesController : BaseController//ControllerBase
 {
     private readonly IMediator _mediator;
     private readonly IMapper _mapper;
-    private readonly SaleRepository _repository;
+    private readonly ISaleRepository _repository;
 
-    public SalesController(IMediator mediator, IMapper mapper, SaleRepository repository)
+    public SalesController(IMediator mediator, IMapper mapper, ISaleRepository repository)
     {
         _mediator = mediator;
         _mapper = mapper;

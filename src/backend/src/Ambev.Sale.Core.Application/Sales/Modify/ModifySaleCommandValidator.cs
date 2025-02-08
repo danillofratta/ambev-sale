@@ -12,9 +12,9 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
 {
     public class ModifySaleCommandValidator : AbstractValidator<ModifySaleCommand>
     {
-        private readonly SaleRepository _repository;
+        private readonly ISaleRepository _repository;
 
-        public ModifySaleCommandValidator(SaleRepository repository)
+        public ModifySaleCommandValidator(ISaleRepository repository)
         {
             _repository = repository;
 
