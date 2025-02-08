@@ -34,13 +34,6 @@ services:
       RABBITMQ_DEFAULT_USER: guest 
       RABBITMQ_DEFAULT_PASS: guest 
 
-  # api_ambev_sale:
-  #   image: api_ambev_sale           
-  #   ports:
-  #     - "5001:80"
-  #   depends_on:
-  #     - postgres
-
   api:
     build:
       context: .
@@ -51,9 +44,8 @@ services:
       - postgres
       - rabbitmq
     environment:        
-      - ASPNETCORE_ENVIRONMENT=Development    
-      - RABBITMQ_CONNECTION=rabbitmq:5672      
-      #- ConnectionStrings__DefaultConnection=Host=postgres_db;Port=5432;Username=admin;Password=root;Database=ambev;
+      # - ASPNETCORE_ENVIRONMENT=Development          
+      - RABBITMQ_CONNECTION=rabbitmq:5672            
     ports:
       - "5000:5000"
       - "5001:5001" 

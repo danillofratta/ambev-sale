@@ -13,68 +13,70 @@ using Ambev.Sale.Core.Application.Sales.Get;
 using Ambev.Sale.Core.Application.Sales.GetList;
 using Ambev.Sale.Core.Application.SalesItem.Get;
 using Ambev.Sale.Core.Application.SaleItem.Cancel;
+using Rebus.Logging;
+using Serilog;
+using Ambev.Sale.Core.Application;
+using Ambev.DeveloperEvaluation.IoC;
 
-var builder = WebApplication.CreateBuilder(args);
-
-builder.WebHost.ConfigureKestrel(options =>
+try
 {
-    options.ListenAnyIP(5000);
-});
+    Log.Information("Starting web application");
+
+    var builder = WebApplication.CreateBuilder(args);
+
+    builder.WebHost.ConfigureKestrel(options =>
+    {
+        options.ListenAnyIP(5000);
+    });
+
+    builder.RegisterDependencies();
+
+    builder.Services.AddControllers();
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen();
+
+    builder.Services.AddMediatR(cfg =>
+    {
+        cfg.RegisterServicesFromAssemblies(
+            typeof(ApplicationLayer).Assembly,
+            typeof(Program).Assembly
+        );
+    });
 
 
-//rebus config and register
-var conn = builder.Configuration.GetSection("ConnectionStrings").Get<Dictionary<string, string>>();
-builder.Services.AddRebusInfrastructure(conn["RabbitMQ"]);
-builder.Services.AutoRegisterHandlersFromAssemblyOf<CreateSaleLogRebusHandler>();
-builder.Services.AddScoped<IMessageBus, MessageBus>();
+    builder.Services.AddAutoMapper(typeof(Program).Assembly, typeof(ApplicationLayer).Assembly);
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
-builder.Services.AddMediatR(cfg =>
-{
-    cfg.RegisterServicesFromAssemblies(
-        typeof(CreateSaleHandler).Assembly,
-        typeof(CancelSaleHandler).Assembly,
-        typeof(GetSaleQueryHandler).Assembly,
-        typeof(GetListSaleQueryHandler).Assembly,
-        typeof(ModifySaleHandler).Assembly,
-        typeof(GetSaleItemQueryHandler).Assembly,
-        typeof(CancelSaleItemHandler).Assembly,
-        typeof(Program).Assembly
-    );
-});
+    var app = builder.Build();
 
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+    app.Services.GetRequiredService<Rebus.Bus.IBus>();
 
-builder.Services.AddDbContext<DefaultDbContext>();
-
-builder.Services.AddScoped<ISaleRepository, SaleRepository>();
-builder.Services.AddScoped<ISaleItemRepository, SaleItemRepository>();
-builder.Services.AddScoped<SaleDiscountService>();
-
-var app = builder.Build();
-
-app.Services.GetRequiredService<Rebus.Bus.IBus>();
-
-//if (app.Environment.IsDevelopment())
-//{
-app.UseSwagger();
+    //if (app.Environment.IsDevelopment())
+    //{
+    app.UseSwagger();
     app.UseSwaggerUI();
-//}
+    //}
 
-app.UseRouting();
-app.MapGet("/", () => "API rodando...");
+    app.UseRouting();
+    app.MapGet("/", () => "API run...");
 
-app.UseCors(cors => cors
-.AllowAnyMethod()
-.AllowAnyHeader()
-.AllowAnyOrigin()
-);
+    app.UseCors(cors => cors
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .AllowAnyOrigin()
+    );
 
-app.UseAuthorization();
+    app.UseAuthorization();
 
-app.MapControllers();
+    app.MapControllers();
 
-app.Run();
+    app.Run();
+}
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Application terminated unexpectedly");
+}
+finally
+{
+    Log.CloseAndFlush();
+}

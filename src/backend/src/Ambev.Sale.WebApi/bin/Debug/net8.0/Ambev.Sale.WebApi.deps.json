@@ -8,15 +8,14 @@
     ".NETCoreApp,Version=v8.0": {
       "Ambev.Sale.WebApi/1.0.0": {
         "dependencies": {
-          "Ambev.Sale.Common": "1.0.0",
-          "Ambev.Sale.Core.Application": "1.0.0",
-          "Ambev.Sale.Infrastructure": "1.0.0",
+          "Ambev.Sale.Ioc": "1.0.0",
           "AutoMapper": "13.0.1",
           "MediatR": "12.4.1",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6",
           "Rebus": "8.7.1",
           "Rebus.RabbitMq": "10.0.0",
           "Rebus.ServiceProvider": "10.3.0",
+          "Serilog": "4.2.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -316,6 +315,14 @@
           }
         }
       },
+      "Serilog/4.2.0": {
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.6.2": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -407,6 +414,20 @@
         },
         "runtime": {
           "Ambev.Sale.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Ambev.Sale.Ioc/1.0.0": {
+        "dependencies": {
+          "Ambev.Sale.Common": "1.0.0",
+          "Ambev.Sale.Core.Application": "1.0.0",
+          "Ambev.Sale.Core.Domain": "1.0.0",
+          "Ambev.Sale.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Ambev.Sale.Ioc.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -658,6 +679,13 @@
       "path": "rebus.serviceprovider/10.3.0",
       "hashPath": "rebus.serviceprovider.10.3.0.nupkg.sha512"
     },
+    "Serilog/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
+      "path": "serilog/4.2.0",
+      "hashPath": "serilog.4.2.0.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",
       "serviceable": true,
@@ -723,6 +751,11 @@
       "sha512": ""
     },
     "Ambev.Sale.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ambev.Sale.Ioc/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

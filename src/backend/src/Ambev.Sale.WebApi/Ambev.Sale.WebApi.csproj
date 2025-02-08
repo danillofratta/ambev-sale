@@ -16,13 +16,12 @@
     <PackageReference Include="Rebus" Version="8.7.1" />
     <PackageReference Include="Rebus.RabbitMq" Version="10.0.0" />
     <PackageReference Include="Rebus.ServiceProvider" Version="10.3.0" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ambev.Sale.Common\Ambev.Sale.Common.csproj" />
-    <ProjectReference Include="..\Ambev.Sale.Core.Application\Ambev.Sale.Core.Application.csproj" />
-    <ProjectReference Include="..\Ambev.Sale.Infrastructure\Ambev.Sale.Infrastructure.csproj" />
+    <ProjectReference Include="..\Ambev.Sale.Ioc\Ambev.Sale.Ioc.csproj" />
   </ItemGroup>
 
 </Project>

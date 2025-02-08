@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ydvA4286FROamcwzWHoJLd4AK1U8J39Qbb7W8hOK2IN28pVbWxPwEzGwXy/TbV1AWaDnGl9UQPGrOp5qQ7DTg==",
+  "dgSpecHash": "EKicGO0IxN4=",
   "success": true,
-  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj",
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b6\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

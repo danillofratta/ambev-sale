@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "p127bHCV+qaHX7myMukAACdUU/2oN0jG+0ZeTDERkAg=",
+  "Hash": "zm+EOMxyqDguKwwOFQFSH0sE6T1pXmIrCs8K6DpAxOk=",
   "Source": "Ambev.Sale.WebApi",
   "BasePath": "_content/Ambev.Sale.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

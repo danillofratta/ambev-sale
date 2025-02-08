@@ -12,15 +12,17 @@ COPY ["src/Ambev.Sale.Core.Domain/Ambev.Sale.Core.Domain.csproj", "Ambev.Sale.Co
 COPY ["src/Ambev.Sale.Common/Ambev.Sale.Common.csproj", "Ambev.Sale.Common/"]
 COPY ["src/Ambev.Sale.Core.Application/Ambev.Sale.Core.Application.csproj", "Ambev.Sale.Core.Application/"]
 COPY ["src/Ambev.Sale.Infrastructure/Ambev.Sale.Infrastructure.csproj", "Ambev.Sale.Infrastructure/"]
-	       
+COPY ["src/Ambev.Sale.Ioc/Ambev.Sale.Ioc.csproj", "Ambev.Sale.Ioc/"]
+   
 RUN dotnet restore "Ambev.Sale.WebApi/Ambev.Sale.WebApi.csproj"
 
-#COPY . .
 COPY src/Ambev.Sale.WebApi/ Ambev.Sale.WebApi/
 COPY src/Ambev.Sale.Common/ Ambev.Sale.Common/
 COPY src/Ambev.Sale.Core.Application/ Ambev.Sale.Core.Application/
 COPY src/Ambev.Sale.Core.Domain/ Ambev.Sale.Core.Domain/
 COPY src/Ambev.Sale.Infrastructure/ Ambev.Sale.Infrastructure/
+COPY src/Ambev.Sale.Ioc/ Ambev.Sale.Ioc/
+
 
 WORKDIR "/src/Ambev.Sale.WebApi"
 RUN dotnet build -c Release -o /app/build

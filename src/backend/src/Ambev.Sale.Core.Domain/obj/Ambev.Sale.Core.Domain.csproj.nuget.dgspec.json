@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj": {}
+    "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b6\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj": {}
   },
   "projects": {
-    "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b6\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b6\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj",
         "projectName": "Ambev.Sale.Core.Domain",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b6\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b6\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -47,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

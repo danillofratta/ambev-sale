@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ambev.Sale.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8647564708eb488ca48a0feb474b643a7e08ee9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eac8570a32b83bffe08f6d452119f0fd1787b10f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ambev.Sale.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ambev.Sale.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

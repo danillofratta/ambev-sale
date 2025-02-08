@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tLn5TIeJdX0QcxAUcuRtuw1HvuGGeWRe1+87bP5w+j7uHeegLd4+AmhC4G9mZXDr81nVm0/WmMr+5KEfAznAaQ==",
+  "dgSpecHash": "x0QHZXQc5cY=",
   "success": true,
-  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj",
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b6\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
@@ -38,6 +38,7 @@
     "C:\\Users\\danil\\.nuget\\packages\\rebus\\8.7.1\\rebus.8.7.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\rebus.rabbitmq\\10.0.0\\rebus.rabbitmq.10.0.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\rebus.serviceprovider\\10.3.0\\rebus.serviceprovider.10.3.0.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
