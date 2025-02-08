@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1uQ4aDe46FnRIe0efHMTpxBgBAKn4Iyd09Scy80Bo0DE8nDwpS96KAvpMaZJYfI+HsxkBh9hMROwKKJTlkJnKg==",
+  "dgSpecHash": "vuMNMiXRc0k+0aovxvwMeYrhqd5gSqFTfEAKMLgdq5F2XbzvxfWWINgegfsjQwvzQKNBTGi+QcnurWADDbFYNg==",
   "success": true,
-  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj",
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

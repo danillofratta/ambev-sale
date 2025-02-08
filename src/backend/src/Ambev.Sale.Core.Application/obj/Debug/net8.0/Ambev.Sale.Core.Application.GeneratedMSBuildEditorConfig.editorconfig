@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ambev.Sale.Core.Application
-build_property.ProjectDir = C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\backend\src\Ambev.Sale.Core.Application\
+build_property.ProjectDir = C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b5\ambev-sale\src\backend\src\Ambev.Sale.Core.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

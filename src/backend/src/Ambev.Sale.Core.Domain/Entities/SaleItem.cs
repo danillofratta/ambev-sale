@@ -20,6 +20,6 @@ public class SaleItem : BaseEntity
     public decimal Discount { get; set; }
     public decimal TotalPrice { get; set; }
 
-    public SaleItemStatus Status { get; set; }
+    public SaleItemStatus Status { get; set; } = SaleItemStatus.NotCancelled;
 }
 

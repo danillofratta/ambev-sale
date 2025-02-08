@@ -15,5 +15,5 @@ public record CreateSaleItemDto
     decimal UnitPrice ,
     decimal Discount ,
     decimal TotalPrice,
-    SaleStatus Status 
+    SaleStatus Status = SaleStatus.NotCancelled
 );

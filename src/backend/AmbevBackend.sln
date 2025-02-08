@@ -21,6 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambev.Sale.Core.Application
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambev.Sale.WebApi", "src\Ambev.Sale.WebApi\Ambev.Sale.WebApi.csproj", "{8E02570F-D53D-4E4D-B4FA-09EA04430242}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 TEst", "4 TEst", "{536FC290-1A9D-47C4-BE49-9E2B88B220AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.Tests.Unit", "tests\Ambev.Tests.Unit\Ambev.Tests.Unit.csproj", "{DD0DE107-CF85-4729-ACA9-80241D643CDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +56,10 @@ Global
 		{8E02570F-D53D-4E4D-B4FA-09EA04430242}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E02570F-D53D-4E4D-B4FA-09EA04430242}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E02570F-D53D-4E4D-B4FA-09EA04430242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0DE107-CF85-4729-ACA9-80241D643CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0DE107-CF85-4729-ACA9-80241D643CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0DE107-CF85-4729-ACA9-80241D643CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0DE107-CF85-4729-ACA9-80241D643CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +70,7 @@ Global
 		{E3F8BC1D-9F44-453A-BCD5-E74EBE16ECE9} = {246E66CE-4A42-47DD-A83B-E313CCC8E763}
 		{DEB8A825-59A0-4445-BA5F-2C0BA004341F} = {246E66CE-4A42-47DD-A83B-E313CCC8E763}
 		{8E02570F-D53D-4E4D-B4FA-09EA04430242} = {EFF64864-0991-43BB-B1CB-0D88B3C39C74}
+		{DD0DE107-CF85-4729-ACA9-80241D643CDB} = {536FC290-1A9D-47C4-BE49-9E2B88B220AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37FEACB0-AD7B-41C5-B87A-5F1549638D34}

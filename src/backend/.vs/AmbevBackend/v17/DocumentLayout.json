@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\backend\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3F8BC1D-9F44-453A-BCD5-E74EBE16ECE9}|src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\ambev.sale.core.domain\\service\\salediscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3F8BC1D-9F44-453A-BCD5-E74EBE16ECE9}|src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj|solutionrelative:src\\ambev.sale.core.domain\\service\\salediscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEB8A825-59A0-4445-BA5F-2C0BA004341F}|src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\ambev.sale.core.application\\sales\\create\\createsalecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEB8A825-59A0-4445-BA5F-2C0BA004341F}|src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|solutionrelative:src\\ambev.sale.core.application\\sales\\create\\createsalecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0DE107-CF85-4729-ACA9-80241D643CDB}|tests\\Ambev.Tests.Unit\\Ambev.Tests.Unit.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\ambev.tests.unit\\application\\createsalehandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0DE107-CF85-4729-ACA9-80241D643CDB}|tests\\Ambev.Tests.Unit\\Ambev.Tests.Unit.csproj|solutionrelative:tests\\ambev.tests.unit\\application\\createsalehandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0DE107-CF85-4729-ACA9-80241D643CDB}|tests\\Ambev.Tests.Unit\\Ambev.Tests.Unit.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\ambev.tests.unit\\application\\testdata\\createuserhandlertestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0DE107-CF85-4729-ACA9-80241D643CDB}|tests\\Ambev.Tests.Unit\\Ambev.Tests.Unit.csproj|solutionrelative:tests\\ambev.tests.unit\\application\\testdata\\createuserhandlertestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0DE107-CF85-4729-ACA9-80241D643CDB}|tests\\Ambev.Tests.Unit\\Ambev.Tests.Unit.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\ambev.tests.unit\\application\\salediscountservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0DE107-CF85-4729-ACA9-80241D643CDB}|tests\\Ambev.Tests.Unit\\Ambev.Tests.Unit.csproj|solutionrelative:tests\\ambev.tests.unit\\application\\salediscountservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserHandlerTestData.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\Ambev.Tests.Unit\\Application\\TestData\\CreateUserHandlerTestData.cs",
+              "RelativeDocumentMoniker": "tests\\Ambev.Tests.Unit\\Application\\TestData\\CreateUserHandlerTestData.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\Ambev.Tests.Unit\\Application\\TestData\\CreateUserHandlerTestData.cs",
+              "RelativeToolTip": "tests\\Ambev.Tests.Unit\\Application\\TestData\\CreateUserHandlerTestData.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T17:51:58.597Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaleDiscountServiceTests.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\Ambev.Tests.Unit\\Application\\SaleDiscountServiceTests.cs",
+              "RelativeDocumentMoniker": "tests\\Ambev.Tests.Unit\\Application\\SaleDiscountServiceTests.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\Ambev.Tests.Unit\\Application\\SaleDiscountServiceTests.cs",
+              "RelativeToolTip": "tests\\Ambev.Tests.Unit\\Application\\SaleDiscountServiceTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwGwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:09:59.946Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateSaleHandlerTests.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\Ambev.Tests.Unit\\Application\\CreateSaleHandlerTests.cs",
+              "RelativeDocumentMoniker": "tests\\Ambev.Tests.Unit\\Application\\CreateSaleHandlerTests.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\tests\\Ambev.Tests.Unit\\Application\\CreateSaleHandlerTests.cs",
+              "RelativeToolTip": "tests\\Ambev.Tests.Unit\\Application\\CreateSaleHandlerTests.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAvwDsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:10:36.72Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
@@ -34,6 +97,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateSaleCommand.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Create\\CreateSaleCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.Core.Application\\Sales\\Create\\CreateSaleCommand.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Create\\CreateSaleCommand.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.Core.Application\\Sales\\Create\\CreateSaleCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:44:56.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaleDiscountService.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Service\\SaleDiscountService.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.Core.Domain\\Service\\SaleDiscountService.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b5\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Service\\SaleDiscountService.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.Core.Domain\\Service\\SaleDiscountService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAvwCEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:32:08.613Z",
+              "EditorCaption": ""
             }
           ]
         },
