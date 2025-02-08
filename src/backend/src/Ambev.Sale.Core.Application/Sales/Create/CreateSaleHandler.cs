@@ -52,7 +52,6 @@ namespace Ambev.Sale.Core.Application.Sales.Create
                 var result = _mapper.Map<CreateSaleResult>(created);
 
                 //publich event 
-                //to improve to mapp
                 await _mediator.Publish(new CreateSaleResult
                 {
                     Id = result.Id,
@@ -60,8 +59,7 @@ namespace Ambev.Sale.Core.Application.Sales.Create
                 });
                 await Task.FromResult("Sale Created");
 
-                //using rebus 
-                //todo improve to mapp
+                //using rebus
                 await _bus.Publish(new CreateSaleEvent
                 {
                     Id = created.Id,

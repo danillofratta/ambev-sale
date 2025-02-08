@@ -25,16 +25,14 @@ services:
       - postgres
  
   rabbitmq:
-    image: rabbitmq:4-management
-    networks:
-      - microservices-network    
+    image: rabbitmq:4-management  
     container_name: rabbitmq
     ports:
-      - "5672:5672"   # Porta de comunicação do RabbitMQ (AMQP)
-      - "15672:15672" # Painel de administração do RabbitMQ
+      - "5672:5672"   
+      - "15672:15672" 
     environment:
-      RABBITMQ_DEFAULT_USER: guest # Usuário padrão
-      RABBITMQ_DEFAULT_PASS: guest # Senha padrão 
+      RABBITMQ_DEFAULT_USER: guest 
+      RABBITMQ_DEFAULT_PASS: guest 
 
   # api_ambev_sale:
   #   image: api_ambev_sale           
@@ -53,7 +51,8 @@ services:
       - postgres
       - rabbitmq
     environment:        
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Development    
+      - RABBITMQ_CONNECTION=rabbitmq:5672      
       #- ConnectionStrings__DefaultConnection=Host=postgres_db;Port=5432;Username=admin;Password=root;Database=ambev;
     ports:
       - "5000:5000"

@@ -18,8 +18,7 @@ namespace Ambev.Sale.Infrastructure.Config
                 .Routing(r =>
                 {
                     var routing = r.TypeBased();
-                    ConfigureRoutes(routing);
-                    //return routing;
+                    ConfigureRoutes(routing);                    
                 }));
 
             return services;

@@ -8,6 +8,11 @@ using Rebus.Config;
 using Rebus.Routing.TypeBased;
 using Ambev.Sale.Core.Domain.Messaging;
 using Ambev.Sale.Infrastructure.Config;
+using Ambev.Sale.Core.Application.Sales.Modify;
+using Ambev.Sale.Core.Application.Sales.Get;
+using Ambev.Sale.Core.Application.Sales.GetList;
+using Ambev.Sale.Core.Application.SalesItem.Get;
+using Ambev.Sale.Core.Application.SaleItem.Cancel;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,17 +21,11 @@ builder.WebHost.ConfigureKestrel(options =>
     options.ListenAnyIP(5000);
 });
 
-//todo add in infrastructure
-//todo 
-//builder.Services.AddRebus(config => config
-//    .Transport(t => t.UseRabbitMq("amqp://localhost", "sales_event_queue"))
-//    .Routing(r => r.TypeBased()
-//        .Map<CreateSaleCommand>("sales_command_queue")
-//        .Map<CreateSaleEvent>("sales_event_queue"))
-//);
 
-//builder.Services.AutoRegisterHandlersFromAssemblyOf<CreateSaleLogRebusHandler>();
-builder.Services.AddRebusInfrastructure("amqp://localhost");
+//rebus config and register
+var conn = builder.Configuration.GetSection("ConnectionStrings").Get<Dictionary<string, string>>();
+builder.Services.AddRebusInfrastructure(conn["RabbitMQ"]);
+builder.Services.AutoRegisterHandlersFromAssemblyOf<CreateSaleLogRebusHandler>();
 builder.Services.AddScoped<IMessageBus, MessageBus>();
 
 builder.Services.AddControllers();
@@ -36,7 +35,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssemblies(
-        typeof(CreateSaleHandler).Assembly,        
+        typeof(CreateSaleHandler).Assembly,
+        typeof(CancelSaleHandler).Assembly,
+        typeof(GetSaleQueryHandler).Assembly,
+        typeof(GetListSaleQueryHandler).Assembly,
+        typeof(ModifySaleHandler).Assembly,
+        typeof(GetSaleItemQueryHandler).Assembly,
+        typeof(CancelSaleItemHandler).Assembly,
         typeof(Program).Assembly
     );
 });
@@ -51,13 +56,8 @@ builder.Services.AddScoped<SaleDiscountService>();
 
 var app = builder.Build();
 
-// Start Rebus correctly
-//app.Services.UseRebus();
-
 app.Services.GetRequiredService<Rebus.Bus.IBus>();
 
-
-// Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
 app.UseSwagger();
