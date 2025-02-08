@@ -78,8 +78,7 @@
               "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\Migrations\\DefaultDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:36:46.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T01:36:46.609Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\DefaultDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:36:35.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T01:36:35.798Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\Repository\\SaleItemRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:36:24.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T01:36:24.603Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\Migrations\\20250207155904_InitialCreate.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:36:02.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T01:36:02.401Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "src\\Ambev.Sale.Core.Application\\Sales\\Cancel\\CancelSaleHandler.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAAwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:35:43.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T01:35:43.748Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:35:03.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T01:35:03.203Z"
             },
             {
               "$type": "Document",
@@ -154,7 +148,7 @@
               "RelativeDocumentMoniker": "src\\Ambev.Sale.Infrastructure\\Repository\\SaleRepository.cs",
               "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Repository\\SaleRepository.cs",
               "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\Repository\\SaleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T01:34:44.287Z",
               "EditorCaption": ""
@@ -169,8 +163,7 @@
               "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\Common\\RepositoryBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:32:26.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T01:32:26.006Z"
             }
           ]
         },

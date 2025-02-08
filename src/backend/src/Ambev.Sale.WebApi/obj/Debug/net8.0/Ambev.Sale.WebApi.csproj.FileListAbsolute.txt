@@ -101,13 +101,6 @@ C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\m
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.Infrastructure.dll
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.Common.pdb
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\abi-gth-omnia-developer-evaluation\minhasolucao\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.Infrastructure.pdb
-C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.csproj.AssemblyReference.cache
-C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.AssemblyInfoInputs.cache
-C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.AssemblyInfo.cs
-C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.csproj.CoreCompileInputs.cache
-C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\appsettings.json
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.WebApi.exe
@@ -141,6 +134,14 @@ C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebAp
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.Core.Application.pdb
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.Infrastructure.pdb
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.Ambev.Sale.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
@@ -155,4 +156,3 @@ C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebAp
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.pdb
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.genruntimeconfig.cache
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\ref\Ambev.Sale.WebApi.dll
-C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.MvcApplicationPartsAssemblyInfo.cs
