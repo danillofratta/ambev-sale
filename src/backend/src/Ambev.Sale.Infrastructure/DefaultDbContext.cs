@@ -22,6 +22,7 @@ public class DefaultDbContext : DbContext
         //docker postgres                
         //var conn = "Host=postgres_db;Port=5432;Username=admin;Password=root;Database=ambev;";        
 
+        //todo remove from here and put appsettings, this os only to fast test
         #if DEBUG
         //rodar com docker mas no visual
         var conn = "Host=localhost;Port=5432;Username=admin;Password=root;Database=ambev;";

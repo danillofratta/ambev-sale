@@ -8,6 +8,7 @@ using FluentValidation;
 using AutoMapper;
 using Ambev.Sale.Core.Domain.Service;
 using Ambev.Sale.Core.Domain.Repository;
+using Rebus.Bus;
 
 namespace Ambev.Sale.Core.Application.Sales.Create
 {
@@ -17,13 +18,15 @@ namespace Ambev.Sale.Core.Application.Sales.Create
         private readonly IMapper _mapper;
         private readonly SaleDiscountService _discountService;
         private readonly IMediator _mediator;
+        private readonly IBus _bus;
 
-        public CreateSaleHandler(IMediator mediator, SaleDiscountService discountService, ISaleRepository repository, IMapper mapper)
+        public CreateSaleHandler(IBus bus, IMediator mediator, SaleDiscountService discountService, ISaleRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
             _discountService = discountService;
             _mediator = mediator;
+            _bus = bus;
         }
 
         public async Task<CreateSaleResult> Handle(CreateSaleCommand command, CancellationToken cancellationToken)
@@ -48,12 +51,26 @@ namespace Ambev.Sale.Core.Application.Sales.Create
                 var created = await _repository.SaveAsync(record);
                 var result = _mapper.Map<CreateSaleResult>(created);
 
+                //publich event 
+                //to improve to mapp
                 await _mediator.Publish(new CreateSaleResult
                 {
                     Id = result.Id,
                     Number = result.Number
                 });
                 await Task.FromResult("Sale Created");
+
+                //using rebus 
+                //todo improve to mapp
+                await _bus.Publish(new CreateSaleEvent
+                {
+                    Id = created.Id,
+                    Number = created.Number,
+                    CustomerId = created.CustomerId,
+                    BranchId = created.BranchId,
+                    TotalAmount = created.TotalAmount,
+                    CreatedAt = created.CreatedAt
+                });
 
                 return result;
             }
