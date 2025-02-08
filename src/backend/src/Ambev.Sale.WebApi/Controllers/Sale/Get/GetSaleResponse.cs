@@ -10,6 +10,7 @@ namespace Ambev.Sale.WebApi.Controllers.Sale.Get
     public class GetSaleResponse
     {
         public Guid Id { get; set; }
+        public int Number { get; set; }
         public string CustomerId { get; set; }
         public string CustomerName { get; set; } = string.Empty;
 

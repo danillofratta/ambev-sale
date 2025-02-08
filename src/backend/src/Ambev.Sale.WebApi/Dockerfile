@@ -7,20 +7,20 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY ["backend/src/Ambev.Sale.WebApi/Ambev.Sale.WebApi.csproj", "Ambev.Sale.WebApi/"]
-COPY ["backend/src/Ambev.Sale.Core.Domain/Ambev.Sale.Core.Domain.csproj", "Ambev.Sale.Core.Domain/"]
-COPY ["backend/src/Ambev.Sale.Common/Ambev.Sale.Common.csproj", "Ambev.Sale.Common/"]
-COPY ["backend/src/Ambev.Sale.Core.Application/Ambev.Sale.Core.Application.csproj", "Ambev.Sale.Core.Application/"]
-COPY ["backend/src/Ambev.Sale.Infrastructure/Ambev.Sale.Infrastructure.csproj", "Ambev.Sale.Infrastructure/"]
+COPY ["src/Ambev.Sale.WebApi/Ambev.Sale.WebApi.csproj", "Ambev.Sale.WebApi/"]
+COPY ["src/Ambev.Sale.Core.Domain/Ambev.Sale.Core.Domain.csproj", "Ambev.Sale.Core.Domain/"]
+COPY ["src/Ambev.Sale.Common/Ambev.Sale.Common.csproj", "Ambev.Sale.Common/"]
+COPY ["src/Ambev.Sale.Core.Application/Ambev.Sale.Core.Application.csproj", "Ambev.Sale.Core.Application/"]
+COPY ["src/Ambev.Sale.Infrastructure/Ambev.Sale.Infrastructure.csproj", "Ambev.Sale.Infrastructure/"]
 	       
 RUN dotnet restore "Ambev.Sale.WebApi/Ambev.Sale.WebApi.csproj"
 
 #COPY . .
-COPY backend/src/Ambev.Sale.WebApi/ Ambev.Sale.WebApi/
-COPY backend/src/Ambev.Sale.Common/ Ambev.Sale.Common/
-COPY backend/src/Ambev.Sale.Core.Application/ Ambev.Sale.Core.Application/
-COPY backend/src/Ambev.Sale.Core.Domain/ Ambev.Sale.Core.Domain/
-COPY backend/src/Ambev.Sale.Infrastructure/ Ambev.Sale.Infrastructure/
+COPY src/Ambev.Sale.WebApi/ Ambev.Sale.WebApi/
+COPY src/Ambev.Sale.Common/ Ambev.Sale.Common/
+COPY src/Ambev.Sale.Core.Application/ Ambev.Sale.Core.Application/
+COPY src/Ambev.Sale.Core.Domain/ Ambev.Sale.Core.Domain/
+COPY src/Ambev.Sale.Infrastructure/ Ambev.Sale.Infrastructure/
 
 WORKDIR "/src/Ambev.Sale.WebApi"
 RUN dotnet build -c Release -o /app/build

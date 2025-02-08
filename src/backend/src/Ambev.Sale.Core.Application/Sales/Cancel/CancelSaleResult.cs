@@ -9,5 +9,6 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
     public class CancelSaleResult
     {
         public Guid id { get; set; }
+        public int Number { get; set; }
     }
 }

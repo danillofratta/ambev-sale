@@ -9,5 +9,7 @@ namespace Ambev.Sale.Core.Application.Sales.Create
     public class CreateSaleResult
     {
         public Guid Id { get; set; }
+
+        public int Number { get; set; }
     }
 }

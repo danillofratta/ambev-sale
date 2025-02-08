@@ -34,7 +34,7 @@ services:
   api:
     build:
       context: .
-      dockerfile: Ambev.Sale.WebApi/Dockerfile
+      dockerfile: src/Ambev.Sale.WebApi/Dockerfile
     container_name: Ambev.WebApi.Sale
     restart: always
     depends_on:

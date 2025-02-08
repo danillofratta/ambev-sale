@@ -10,6 +10,8 @@ namespace Ambev.Sale.Core.Application.Sales.GetList
     public class GetListSaleQueryResult
     {
         public Guid id { get; set; }
+
+        public int Number { get; set; }
         public string CustomerId { get; set; }
         public string CustomerName { get; set; } = string.Empty;
 
