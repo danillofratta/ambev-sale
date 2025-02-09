@@ -13,7 +13,7 @@ public class SaleRepository : RepositoryBase<Ambev.Sale.Core.Domain.Entities.Sal
 
     public async Task<Ambev.Sale.Core.Domain.Entities.Sale> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)
     {
-        return await _DefaultDbContext.Sales.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
+        return await _DefaultDbContext.Sales.AsNoTracking().Include(s => s.SaleItems).FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
     }
 
     public async Task<(IReadOnlyList<Ambev.Sale.Core.Domain.Entities.Sale> sales, int totalCount)> GetPagedAsync(

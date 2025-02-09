@@ -7,15 +7,15 @@ using Ambev.Sale.Core.Domain.Enum;
 
 namespace Ambev.Sale.Core.Application.Sales.Dto;
 
-public record GetSaleItemDto
-(
-    Guid SaleId ,
-    Guid Id,
-    string ProductId,
-    string ProductName,
-    int Quantity,
-    decimal UnitPrice ,
-    decimal Discount ,
-    decimal TotalPrice,
-    SaleStatus Status 
-);
+public class GetSaleItemDto
+{
+    public Guid Id { get; set; }
+    public Guid SaleId { get; set; }
+    public string ProductId { get; set; } = string.Empty;
+    public string ProductName { get; set; } = string.Empty;
+    public int Quantity { get; set; }
+    public decimal UnitPrice { get; set; }
+    public decimal Discount { get; set; }
+    public decimal TotalPrice { get; set; }
+    public SaleItemStatus Status { get; set; } = new();
+}

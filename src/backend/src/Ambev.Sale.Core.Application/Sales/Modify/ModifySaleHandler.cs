@@ -15,11 +15,13 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
     {
         private readonly ISaleRepository _repository;
         private readonly IMapper _mapper;
+        private readonly IMediator _mediator;
 
-        public ModifySaleHandler(ISaleRepository repository, IMapper mapper)
+        public ModifySaleHandler(IMediator mediator, ISaleRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
+            _mediator = mediator;
         }
 
         public async Task<ModifySaleResult> Handle(ModifySaleCommand command, CancellationToken cancellationToken)
@@ -34,6 +36,16 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
             
             var update = await _repository.UpdateAsync(record);
             var result = _mapper.Map<ModifySaleResult>(update);
+
+
+            //publich event 
+            await _mediator.Publish(new ModifySaleResult
+            {
+                Id = result.Id,
+                Number = result.Number
+            });
+            await Task.FromResult("Sale Modified");
+
             return result;            
         }
     }

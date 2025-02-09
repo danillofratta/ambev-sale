@@ -741,11 +741,11 @@
       "GetSaleItemDto": {
         "type": "object",
         "properties": {
-          "saleId": {
+          "id": {
             "type": "string",
             "format": "uuid"
           },
-          "id": {
+          "saleId": {
             "type": "string",
             "format": "uuid"
           },
@@ -774,7 +774,7 @@
             "format": "double"
           },
           "status": {
-            "$ref": "#/components/schemas/SaleStatus"
+            "$ref": "#/components/schemas/SaleItemStatus"
           }
         },
         "additionalProperties": false
@@ -870,7 +870,7 @@
             "type": "string",
             "nullable": true
           },
-          "itens": {
+          "saleItems": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/GetSaleItemDto"

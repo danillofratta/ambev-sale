@@ -23,3 +23,4 @@ public class SaleItem : BaseEntity
     public SaleItemStatus Status { get; set; } = SaleItemStatus.NotCancelled;
 }
 
+

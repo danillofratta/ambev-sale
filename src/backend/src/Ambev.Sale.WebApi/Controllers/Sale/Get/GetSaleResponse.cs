@@ -17,6 +17,6 @@ namespace Ambev.Sale.WebApi.Controllers.Sale.Get
         public string BranchId { get; set; }
         public string BranchName { get; set; } = string.Empty;
 
-        public List<GetSaleItemDto> Itens { get; set; }
+        public List<GetSaleItemDto> SaleItems { get; set; }
     }
 }

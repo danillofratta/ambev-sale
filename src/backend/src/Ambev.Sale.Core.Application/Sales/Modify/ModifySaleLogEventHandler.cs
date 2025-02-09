@@ -7,19 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ambev.Sale.Core.Application.Sales.Create
+namespace Ambev.Sale.Core.Application.Sales.Modify
 {
 
-    public class CreateSaleLogEventHandler : INotificationHandler<CreateSaleResult>
+    public class ModifySaleLogEventHandler : INotificationHandler<ModifySaleResult>
     {
-        private readonly ILogger<CreateSaleLogEventHandler> _logger;
+        private readonly ILogger<ModifySaleLogEventHandler> _logger;
 
-        public CreateSaleLogEventHandler(ILogger<CreateSaleLogEventHandler> logger)
+        public ModifySaleLogEventHandler(ILogger<ModifySaleLogEventHandler> logger)
         {
             _logger = logger;
         }
 
-        public Task Handle(CreateSaleResult notification, CancellationToken cancellationToken)
+        public Task Handle(ModifySaleResult notification, CancellationToken cancellationToken)
         {
             return Task.Run(() =>
             {

@@ -12,9 +12,11 @@ namespace Ambev.Sale.Core.Application.Sales.Get
     {
         public GetSaleQueryProfile()
         {
-            CreateMap<Ambev.Sale.Core.Domain.Entities.Sale, GetSaleQueryResult>()
-                   .ForMember(dto => dto.SaleItems, conf => conf.MapFrom(ol => ol.SaleItems));
+            CreateMap <Ambev.Sale.Core.Domain.Entities.Sale, GetSaleQueryResult>()
+               .ForMember(dto => dto.Id, conf => conf.MapFrom(s => s.Id)) 
+               .ForMember(dto => dto.SaleItems, conf => conf.MapFrom(s => s.SaleItems));
 
+            CreateMap<Ambev.Sale.Core.Domain.Entities.SaleItem, GetSaleItemDto>();
         }
     }
 }

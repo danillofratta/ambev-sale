@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using FluentValidation;
 using AutoMapper;
 using Ambev.Sale.Core.Domain.Repository;
+using Ambev.Sale.Core.Application.Sales.Create;
 
 namespace Ambev.Sale.Core.Application.SaleItem.Cancel
 {
@@ -14,11 +15,13 @@ namespace Ambev.Sale.Core.Application.SaleItem.Cancel
     {
         private readonly ISaleItemRepository _repository;
         private readonly IMapper _mapper;
+        private readonly IMediator _mediator;
 
-        public CancelSaleItemHandler(ISaleItemRepository repository, IMapper mapper)
+        public CancelSaleItemHandler(IMediator mediator, ISaleItemRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
+            _mediator = mediator;
         }
 
         public async Task<CancelSaleItemResult> Handle(CancelSaleItemCommand command, CancellationToken cancellationToken)
@@ -31,7 +34,14 @@ namespace Ambev.Sale.Core.Application.SaleItem.Cancel
             var record = await _repository.GetByIdAsync(command.id);            
             record.Status = Ambev.Sale.Core.Domain.Enum.SaleItemStatus.Cancelled;
             var update = await _repository.UpdateAsync(record);
-            
+
+            //publich event 
+            await _mediator.Publish(new CancelSaleItemResult
+            {
+                id = update.Id
+            });
+            await Task.FromResult("Sale Item Canceled");
+
             return _mapper.Map<CancelSaleItemResult>(update); ;            
         }
     }
