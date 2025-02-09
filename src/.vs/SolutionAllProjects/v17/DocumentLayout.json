@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\",
+  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FD1986A-C674-478A-8647-425B8F84BF81}|backend\\src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\ambev.sale.core.application\\sales\\cancel\\cancelsalecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FD1986A-C674-478A-8647-425B8F84BF81}|backend\\src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|solutionrelative:backend\\src\\ambev.sale.core.application\\sales\\cancel\\cancelsalecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|solutionrelative:frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8F81F5-3035-406D-BB8B-DA945BF7BAC0}|backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\common\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8F81F5-3035-406D-BB8B-DA945BF7BAC0}|backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:backend\\src\\ambev.sale.webapi\\common\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE8F81F5-3035-406D-BB8B-DA945BF7BAC0}|backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8F81F5-3035-406D-BB8B-DA945BF7BAC0}|backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:backend\\src\\ambev.sale.webapi\\controllers\\sale\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\appclientsale\\src\\domain\\api\\saleapi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|solutionrelative:frontend\\appclientsale\\src\\domain\\api\\saleapi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|solutionrelative:frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CD3732A-B2A6-4D9B-B699-A3B88328376A}|frontend\\AppClientSale\\AppClientSale.esproj|solutionrelative:frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,75 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "list-sale.component.ts",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
-              "RelativeDocumentMoniker": "frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
-              "RelativeToolTip": "frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAiwF4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-09T18:06:23.135Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "list-sale.component.html",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html",
-              "RelativeDocumentMoniker": "frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html",
-              "RelativeToolTip": "frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-02-09T18:06:25.667Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "create-sale.component.ts",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
               "RelativeDocumentMoniker": "frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
               "RelativeToolTip": "frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAgwJwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAgwK4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-02-09T18:06:45.638Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CancelSaleCommandValidator.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Cancel\\CancelSaleCommandValidator.cs",
-              "RelativeDocumentMoniker": "backend\\src\\Ambev.Sale.Core.Application\\Sales\\Cancel\\CancelSaleCommandValidator.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Cancel\\CancelSaleCommandValidator.cs",
-              "RelativeToolTip": "backend\\src\\Ambev.Sale.Core.Application\\Sales\\Cancel\\CancelSaleCommandValidator.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T18:09:29.46Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SalesController.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
-              "RelativeDocumentMoniker": "backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
-              "RelativeToolTip": "backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T18:09:43.011Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -136,28 +60,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Common\\BaseController.cs",
-              "RelativeDocumentMoniker": "backend\\src\\Ambev.Sale.WebApi\\Common\\BaseController.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Common\\BaseController.cs",
-              "RelativeToolTip": "backend\\src\\Ambev.Sale.WebApi\\Common\\BaseController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T18:10:04.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SaleApi.ts",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\AppClientSale\\src\\domain\\api\\SaleApi.ts",
-              "RelativeDocumentMoniker": "frontend\\AppClientSale\\src\\domain\\api\\SaleApi.ts",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\frontend\\AppClientSale\\src\\domain\\api\\SaleApi.ts",
-              "RelativeToolTip": "frontend\\AppClientSale\\src\\domain\\api\\SaleApi.ts",
-              "ViewState": "AgIAACIAAAAAAAAAAAASwCsAAAADAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "list-sale.component.ts",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
+              "RelativeDocumentMoniker": "frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\main\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
+              "RelativeToolTip": "frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-09T18:07:18.543Z",
+              "WhenOpened": "2025-02-09T18:33:23.627Z",
               "EditorCaption": ""
             }
           ]

@@ -604,3 +604,10 @@ C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b8\ambev-sale\src\back
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b8\ambev-sale\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\Ambev.Sale.WebApi.genruntimeconfig.cache
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b8\ambev-sale\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\ref\Ambev.Sale.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b8\ambev-sale\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.WebApi.staticwebassets.endpoints.json
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\Serilog.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.Ioc.dll
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\backend\src\Ambev.Sale.WebApi\bin\Debug\net8.0\Ambev.Sale.Ioc.pdb
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.Ambev.Sale.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\backend\src\Ambev.Sale.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

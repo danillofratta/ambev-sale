@@ -1,2 +1,3 @@
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b7\ambev-sale\src\frontend\AppClientSale\obj\Debug\AppClientSale.esproj.CoreCompileInputs.cache
 C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\b8\ambev-sale\src\frontend\AppClientSale\obj\Debug\AppClientSale.esproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\0 Teste vaga emprego\dev\1 branchs\main\ambev-sale\src\frontend\AppClientSale\obj\Debug\AppClientSale.esproj.CoreCompileInputs.cache

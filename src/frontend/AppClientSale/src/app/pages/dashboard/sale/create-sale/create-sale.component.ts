@@ -152,7 +152,7 @@ export class CreateSaleComponent implements OnInit {
     };
     
     try {
-      await new Promise(resolve => setTimeout(resolve, 3000));
+      
 
       await (await this.api.Create(saleData)).subscribe({
         next: (response) => {
@@ -165,14 +165,14 @@ export class CreateSaleComponent implements OnInit {
         error: (error) => {
           console.error('Error occurred:', error);
           const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);
-          this._ListError.push(errorMessage);
+          this._ListError.push(error.error.message);
         },
         complete: () => {
           this.busy = false; // Se você tem algum estado de carregamento
         }
       });
 
-
+      await new Promise(resolve => setTimeout(resolve, 3000));
      
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);

@@ -39,10 +39,16 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
     await this.LoadList();
   }
 
+  ClearErrorList() {
+    this._ListError = [];
+  }
+
   async LoadList() {
 
-    this.busy = true;
+    await new Promise(resolve => setTimeout(resolve, 3000));
 
+    this.busy = true;
+    
     this.list$ = (await this.Api.GetListAll()).pipe(
       map(response => response.data.items),
       catchError((error) => {
@@ -76,10 +82,8 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
 
   async onCancel(id: string) {
     this.busy = true;
-
+    this.ClearErrorList();
     const record: CancelSaleResponseDto = { Id: id }
-
-    //await this.Api.Cancel(record);
 
     await (await this.Api.Cancel(record)).subscribe({
       next: (response) => {
@@ -95,12 +99,10 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
         this._ListError.push(error.error.message);
       },
       complete: () => {
-        this.busy = false; // Se você tem algum estado de carregamento
+        this.busy = false; 
       }
     });
-
-    await new Promise(resolve => setTimeout(resolve, 3000));
-
+    
     this.LoadList();
 
     this.busy = false;
