@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\ambev.sale.infrastructure\\defaultdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|solutionrelative:src\\ambev.sale.infrastructure\\defaultdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|Itens de Solu\u00E7\u00E3o{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|Itens de Solu\u00E7\u00E3o{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\ambev.sale.infrastructure\\defaultdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|solutionrelative:src\\ambev.sale.infrastructure\\defaultdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -53,21 +53,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-09T15:19:30.026Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\appsettings.json",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-09T15:19:26.646Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -95,7 +81,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\appsettings.json",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-09T15:19:26.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DefaultDbContext.cs",
               "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\DefaultDbContext.cs",
               "RelativeDocumentMoniker": "src\\Ambev.Sale.Infrastructure\\DefaultDbContext.cs",

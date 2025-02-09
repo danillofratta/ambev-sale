@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "frontend\\AppClientSale\\AppClientSale.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

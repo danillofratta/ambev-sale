@@ -3,6 +3,7 @@
 <button [routerLink]="['/sale/create']">Create Sale</button>
 
 <app-loading-spinner [isLoading]="busy" [message]="'Loading'"> </app-loading-spinner>
+<app-show-error-list [_ListError]="_ListError"></app-show-error-list>
 
 <div *ngIf="!busy">
 

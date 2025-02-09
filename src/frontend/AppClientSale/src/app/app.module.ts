@@ -29,6 +29,7 @@ import { CreateSaleComponent } from './pages/dashboard/sale/create-sale/create-s
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatOptionModule } from '@angular/material/core';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { ShowErrorListComponent } from './components/show-error-list/show-error-list.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     LoadingSpinnerComponent,
     
     ProductAutoCompleteComponent,
+    ShowErrorListComponent,
 
     CreateSaleComponent,
     ModifySaleComponent,

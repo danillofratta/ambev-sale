@@ -17,7 +17,8 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
   public list$: Observable<GetSaleResponseDto[]> = new Observable<GetSaleResponseDto[]>();
   
   public busy = false;
-  isLoading: boolean = true;
+
+  public _ListError: string[] = [];
 
   dataSource = new MatTableDataSource<GetSaleResponseDto>();
 
@@ -33,14 +34,14 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
   }
 
   async ngOnInit() {
-    this.isLoading = true;
+    this.busy = true;
 
     await this.LoadList();
   }
 
   async LoadList() {
 
-    this.isLoading = true;
+    this.busy = true;
 
     this.list$ = (await this.Api.GetListAll()).pipe(
       map(response => response.data.items),
@@ -50,18 +51,18 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
       })
     );
 
-    this.list$.subscribe({
+    await this.list$.subscribe({
       next: (items) => {
         this.dataSource.data = items;
-        this.isLoading = false;
+        this.busy = false;
       },
       error: (error) => {
         console.error('Error loading data:', error);
-        this.isLoading = false;
+        this.busy = false;
       }
     });
 
-    this.isLoading = false;
+    this.busy = false;
   }
 
   loadDataSource() {
@@ -78,7 +79,25 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
 
     const record: CancelSaleResponseDto = { Id: id }
 
-    await this.Api.Cancel(record);
+    //await this.Api.Cancel(record);
+
+    await (await this.Api.Cancel(record)).subscribe({
+      next: (response) => {
+        if (response.success) {
+          this.router.navigate(['/sale']);
+        } else {
+          this._ListError.push(response.message);
+        }
+      },
+      error: (error) => {
+        console.error('Error occurred:', error);
+        const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);
+        this._ListError.push(error.error.message);
+      },
+      complete: () => {
+        this.busy = false; // Se você tem algum estado de carregamento
+      }
+    });
 
     await new Promise(resolve => setTimeout(resolve, 3000));
 

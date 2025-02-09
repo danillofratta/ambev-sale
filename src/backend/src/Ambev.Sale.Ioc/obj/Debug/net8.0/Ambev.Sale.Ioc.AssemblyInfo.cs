@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ambev.Sale.Ioc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae140bfd382c2ed471095e916731e54a542039ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cc9b52ff8ae7f7e71dc2d61f082869c80d40910")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ambev.Sale.Ioc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ambev.Sale.Ioc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

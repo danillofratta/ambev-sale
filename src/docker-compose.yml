@@ -23,39 +23,39 @@ services:
       - "5050:80"
     depends_on:
       - postgres
-
-  # api_ambev_sale:
-  #   image: api_ambev_sale           
-  #   ports:
-  #     - "5001:80"
-  #   depends_on:
-  #     - postgres
+ 
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   api:
     build:
       context: .
-      dockerfile: backend/src/Ambev.Sale.WebApi/Dockerfile
+      dockerfile: Dockerfile
     container_name: Ambev.WebApi.Sale
-    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
     depends_on:
-      - postgres
-    environment:        
-      - ASPNETCORE_ENVIRONMENT=Development
-      #- ConnectionStrings__DefaultConnection=Host=postgres_db;Port=5432;Username=admin;Password=root;Database=ambev;
+      rabbitmq:
+        condition: service_healthy
     ports:
       - "5000:5000"
-      - "5001:5001" 
 
-  # angular:
-  #   build:
-  #     context: ./MeuAppAngular
-  #     dockerfile: Dockerfile
-  #   container_name: meu_app_angular
-  #   restart: always
-  #   depends_on:
-  #     - api
-  #   ports:
-  #     - "80:80"
+  app-client-sale:
+    build:
+      context: .
+      dockerfile: frontend/AppClientSale/Dockerfile
+    container_name: app-client-sale
+    ports:
+      - "4200:80"
 
 volumes:
   postgres_data:

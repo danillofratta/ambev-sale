@@ -2,7 +2,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormControl, Validators, FormArray } from '@angular/forms';
-import { Observable, map, startWith, BehaviorSubject } from 'rxjs';
+import { Observable, map, startWith, BehaviorSubject, catchError, firstValueFrom } from 'rxjs';
 import { SaleApi } from '../../../../../domain/api/SaleApi';
 import { Router } from '@angular/router';
 import { CustomerDto } from '../../../../../domain/dto/CustomerDto';
@@ -20,6 +20,7 @@ export class CreateSaleComponent implements OnInit {
   public form: FormGroup;
   public formitem: FormGroup;
   public busy = false;
+  public _ListError: string[] = [];
 
   private saleItemsSubject = new BehaviorSubject<CreateSaleItemResponseDto[]>([]);
   public saleItems$ = this.saleItemsSubject.asObservable();
@@ -137,7 +138,10 @@ export class CreateSaleComponent implements OnInit {
   async save() {
     this.busy = true;
 
-    if (this.form.invalid || this.saleItems$ == null) return;
+    if (this.form.invalid || this.saleItems$ == null) {
+      this._ListError.push('Fill in the required fields');
+      return;
+    }
 
     const saleData: CreateSaleRequestDto = {
       customerId: this.form.get('customerControl')?.value?.id,
@@ -149,8 +153,33 @@ export class CreateSaleComponent implements OnInit {
     
     try {
       await new Promise(resolve => setTimeout(resolve, 3000));
-      await this.api.Create(saleData);
-      this.router.navigate(['/sale']);
+
+      await (await this.api.Create(saleData)).subscribe({
+        next: (response) => {
+          if (response.success) {
+            this.router.navigate(['/sale']);
+          } else {
+            this._ListError.push(response.message);
+          }
+        },
+        error: (error) => {
+          console.error('Error occurred:', error);
+          const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);
+          this._ListError.push(errorMessage);
+        },
+        complete: () => {
+          this.busy = false; // Se você tem algum estado de carregamento
+        }
+      });
+
+
+     
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);
+      //this._ListError.push('An error occurred while saving the sale.');
+      this._ListError.push(errorMessage);
+      
+      console.error('Error during sale creation:', error); // Log do erro para debug
     } finally {
       this.busy = false;
     }
@@ -161,3 +190,7 @@ export class CreateSaleComponent implements OnInit {
   }
 }
 
+
+function lastValueFrom(arg0: any) {
+    throw new Error('Function not implemented.');
+}
