@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ambev.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eac8570a32b83bffe08f6d452119f0fd1787b10f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae140bfd382c2ed471095e916731e54a542039ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ambev.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ambev.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
