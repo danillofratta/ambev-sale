@@ -2,7 +2,7 @@ using Ambev.Sale.WebApi.Controllers.Sale.Create;
 using Ambev.Sale.WebApi.Controllers.Sale.Modify;
 using FluentValidation;
 
-namespace Ambev.Sale.WebApi.Controllers.Sale.GetList;
+namespace Ambev.Sale.WebApi.Controllers.Sale.Create;
 
 /// <summary>
 /// Validator for GetUserRequest

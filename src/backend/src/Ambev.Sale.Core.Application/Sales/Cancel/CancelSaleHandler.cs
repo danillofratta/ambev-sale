@@ -8,7 +8,7 @@ using FluentValidation;
 using AutoMapper;
 using Ambev.Sale.Core.Domain.Repository;
 
-namespace Ambev.Sale.Core.Application.Sales.Modify
+namespace Ambev.Sale.Core.Application.Sales.Cancel
 {
     public class CancelSaleHandler : IRequestHandler<CancelSaleCommand, CancelSaleResult>
     {

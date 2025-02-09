@@ -14,6 +14,6 @@ namespace Ambev.Sale.Core.Domain
 
         Task<TEntity> SaveAsync(TEntity obj);
         Task<TEntity> UpdateAsync(TEntity obj);
-        Task DeleteAsync(TEntity obj);
+        Task<TEntity> DeleteAsync(TEntity obj);
     }
 }

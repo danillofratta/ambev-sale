@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ambev.Sale.Core.Application.Sales.Modify
+namespace Ambev.Sale.Core.Application.Sales.Cancel
 {
     public class CancelSaleResult
     {

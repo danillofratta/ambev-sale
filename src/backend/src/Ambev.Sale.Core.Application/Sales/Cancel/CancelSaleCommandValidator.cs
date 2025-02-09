@@ -9,7 +9,7 @@ using FluentValidation;
 using FluentValidation.Validators;
 
 
-namespace Ambev.Sale.Core.Application.Sales.Modify
+namespace Ambev.Sale.Core.Application.Sales.Cancel
 {
     public class CancelSaleCommandValidator : AbstractValidator<CancelSaleCommand>
     {

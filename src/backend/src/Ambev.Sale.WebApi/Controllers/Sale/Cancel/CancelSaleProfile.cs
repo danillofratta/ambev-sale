@@ -1,7 +1,5 @@
-﻿using Ambev.Sale.Core.Application.Sales.Modify;
-using Ambev.Sale.WebApi.Controllers.Sale.Modify;
+﻿using Ambev.Sale.Core.Application.Sales.Cancel;
 using AutoMapper;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Ambev.Sale.WebApi.Controllers.Sale.Cancel
 {

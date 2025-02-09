@@ -95,7 +95,7 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
       },
       error: (error) => {
         console.error('Error occurred:', error);
-        const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);
+        
         this._ListError.push(error.error.message);
       },
       complete: () => {

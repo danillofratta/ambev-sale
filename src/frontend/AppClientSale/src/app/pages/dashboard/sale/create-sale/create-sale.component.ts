@@ -164,11 +164,11 @@ export class CreateSaleComponent implements OnInit {
         },
         error: (error) => {
           console.error('Error occurred:', error);
-          const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);
+          
           this._ListError.push(error.error.message);
         },
         complete: () => {
-          this.busy = false; // Se você tem algum estado de carregamento
+          this.busy = false; 
         }
       });
 
@@ -176,7 +176,7 @@ export class CreateSaleComponent implements OnInit {
      
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);
-      //this._ListError.push('An error occurred while saving the sale.');
+      
       this._ListError.push(errorMessage);
       
       console.error('Error during sale creation:', error); // Log do erro para debug

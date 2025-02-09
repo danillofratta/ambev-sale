@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Ambev.Sale.Core.Application.Sales.Dto;
 using MediatR;
 
-namespace Ambev.Sale.Core.Application.Sales.Modify
+namespace Ambev.Sale.Core.Application.Sales.Cancel
 {
     public class CancelSaleCommand : IRequest<CancelSaleResult>
     {

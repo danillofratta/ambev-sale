@@ -107,6 +107,22 @@
   },
   {
     "ContainingType": "Ambev.Sale.WebApi.Controllers.Sale.SalesController",
+    "Method": "DeleteSale",
+    "RelativePath": "api/v1/Sales",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ambev.Sale.WebApi.Controllers.Sale.Delete.DeleteSaleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ambev.Sale.WebApi.Controllers.Sale.SalesController",
     "Method": "GetSale",
     "RelativePath": "api/v1/Sales/{id}",
     "HttpMethod": "GET",

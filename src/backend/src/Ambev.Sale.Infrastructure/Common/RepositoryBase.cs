@@ -52,7 +52,7 @@ namespace Ambev.Sale.Infrastructure.Common
             }
         }
 
-        public async Task DeleteAsync(TEntity obj)
+        public async Task<TEntity> DeleteAsync(TEntity obj)
         {
             try
             {
@@ -60,6 +60,8 @@ namespace Ambev.Sale.Infrastructure.Common
                 _DefaultDbContext.Set<TEntity>().Remove(obj);
                 await _DefaultDbContext.SaveChangesAsync();
                 await AfterDeleteAsync(obj);
+
+                return obj;
             }
             catch (Exception e)
             {

@@ -1,14 +1,16 @@
 ﻿using Ambev.Sale.Common.Validation;
+using Ambev.Sale.Core.Application.Sales.Cancel;
 using Ambev.Sale.Core.Application.Sales.Create;
 using Ambev.Sale.Core.Application.Sales.Get;
 using Ambev.Sale.Core.Application.Sales.GetList;
 using Ambev.Sale.Core.Application.Sales.Modify;
+using Ambev.Sale.Core.Application.Sales.Delete;
 using Ambev.Sale.Core.Domain.Repository;
 using Ambev.Sale.WebApi.Common;
 using Ambev.Sale.WebApi.Controllers.Sale.Cancel;
 using Ambev.Sale.WebApi.Controllers.Sale.Create;
+using Ambev.Sale.WebApi.Controllers.Sale.Delete;
 using Ambev.Sale.WebApi.Controllers.Sale.Get;
-using Ambev.Sale.WebApi.Controllers.Sale.GetList;
 using Ambev.Sale.WebApi.Controllers.Sale.Modify;
 using AutoMapper;
 using MediatR;
@@ -21,7 +23,7 @@ namespace Ambev.Sale.WebApi.Controllers.Sale;
 
 [ApiController]
 [Route("api/v1/[controller]")]
-public class SalesController : BaseController//ControllerBase
+public class SalesController : BaseController
 {
     private readonly IMediator _mediator;
     private readonly IMapper _mapper;
@@ -107,6 +109,38 @@ public class SalesController : BaseController//ControllerBase
             });
         }
     }
+
+    [HttpDelete]
+    public async Task<IActionResult> DeleteSale([FromBody] DeleteSaleRequest request, CancellationToken cancellationToken)
+    {
+        try
+        {
+            var validator = new DeleteSaleRequestValidator(_repository);
+            var validationResult = await validator.ValidateAsync(request, cancellationToken);
+
+            if (!validationResult.IsValid)
+                return BadRequest(validationResult.Errors);
+
+            var command = _mapper.Map<DeleteSaleCommand>(request);
+            var response = await _mediator.Send(command, cancellationToken);
+
+            return Created(string.Empty, new ApiResponseWithData<DeleteSaleResponse>
+            {
+                Success = true,
+                Message = "Sale deleted successfully",
+                Data = _mapper.Map<DeleteSaleResponse>(response)
+            });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new ApiResponseWithData<DeleteSaleResponse>
+            {
+                Success = false,
+                Message = ex.Message
+            });
+        }
+    }
+
 
     [HttpPut("Cancel")]
     public async Task<IActionResult> CancelSale([FromBody] CancelSaleRequest request, CancellationToken cancellationToken)
