@@ -951,6 +951,10 @@
             "type": "string",
             "format": "uuid"
           },
+          "number": {
+            "type": "integer",
+            "format": "int32"
+          },
           "customerId": {
             "type": "string",
             "nullable": true

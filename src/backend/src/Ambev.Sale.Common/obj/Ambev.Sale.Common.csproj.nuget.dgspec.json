@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj": {}
+    "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj": {}
   },
   "projects": {
-    "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj",
         "projectName": "Ambev.Sale.Common",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",

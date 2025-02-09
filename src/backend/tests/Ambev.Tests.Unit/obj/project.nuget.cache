@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pxYnxG87jus=",
+  "dgSpecHash": "jjYGt3SMScg=",
   "success": true,
-  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\tests\\Ambev.Tests.Unit\\Ambev.Tests.Unit.csproj",
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\tests\\Ambev.Tests.Unit\\Ambev.Tests.Unit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512",

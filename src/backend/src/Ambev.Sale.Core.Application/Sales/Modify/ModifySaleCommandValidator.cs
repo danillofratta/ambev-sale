@@ -27,7 +27,7 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
             RuleFor(x => x.BranchId).NotEmpty();
             RuleFor(x => x.BranchName).NotEmpty();
 
-            //todo verify => doc coment about alter only sale not itens
+            ////todo check => documentation does not mention being able to change item data
             //RuleFor(x => x.SaleItems)
             //    .NotEmpty().WithMessage("The sale must contain at least one item.");
 

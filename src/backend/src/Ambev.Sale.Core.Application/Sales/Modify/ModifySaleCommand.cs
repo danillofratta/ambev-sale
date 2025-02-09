@@ -12,6 +12,8 @@ namespace Ambev.Sale.Core.Application.Sales.Modify
     public class ModifySaleCommand : IRequest<ModifySaleResult>
     {
         public Guid id { get; set; }
+
+        public int Number { get; set; }
         public string CustomerId { get; set; }
         public string CustomerName { get; set; } = string.Empty;
 

@@ -1517,11 +1517,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
+      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
       "projectName": "Ambev.Sale.Ioc",
-      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
+      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\obj\\",
+      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -1546,17 +1546,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Common\\Ambev.Sale.Common.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\NEWMAIN\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj"
             }
           }
         }
