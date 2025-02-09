@@ -2107,11 +2107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj",
+      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj",
       "projectName": "Ambev.Sale.WebApi",
-      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj",
+      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\obj\\",
+      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -2136,8 +2136,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj"
             }
           }
         }

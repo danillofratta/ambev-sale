@@ -18,20 +18,11 @@ public class InfrastructureModuleInitializer : IModuleInitializer
 {
     public void Initialize(WebApplicationBuilder builder)
     {
-
-        //rebus config
-        var conn = builder.Configuration.GetSection("ConnectionStrings").Get<Dictionary<string, string>>();
-        builder.Services.AddRebusInfrastructure(conn["RabbitMQ"]);
-        //todo everything since I switched to ioc is not getting release when compiling in docker
-        //todo and docker dont find correct connection
-        //#if DEBUG
-        //        builder.Services.AddRebusInfrastructure("amqp://localhost");
-        //        Console.WriteLine("debug");
-        //#else
-        //        builder.Services.AddRebusInfrastructure("amqp://guest:guest@rabbitmq:5672");
-        //        Console.WriteLine("release");
-        //#endif
-
+        // Get RabbitMQ connection string
+        //var rabbitMqConnection = GetRabbitMQConnectionString(builder);
+        var rabbitMqConnection = builder.Configuration.GetConnectionString("RabbitMQ");
+        Console.WriteLine(rabbitMqConnection);
+        builder.Services.AddRebusInfrastructure(rabbitMqConnection);
         builder.Services.AutoRegisterHandlersFromAssemblyOf<CreateSaleLogRebusHandler>();
         builder.Services.AddScoped<IMessageBus, MessageBus>();
 
@@ -41,5 +32,49 @@ public class InfrastructureModuleInitializer : IModuleInitializer
         builder.Services.AddScoped<ISaleRepository, SaleRepository>();
         builder.Services.AddScoped<ISaleItemRepository, SaleItemRepository>();
         builder.Services.AddScoped<SaleDiscountService>();
+
+        //rebus config
+        //var conn = builder.Configuration.GetSection("ConnectionStrings").Get<Dictionary<string, string>>();
+        //builder.Services.AddRebusInfrastructure(conn["RabbitMQ"]);
+        //Console.WriteLine(conn["RabbitMQ"]);
+        ////todo everything since I switched to ioc is not getting release when compiling in docker
+        ////todo and docker dont find correct connection
+        ////#if DEBUG
+        ////        builder.Services.AddRebusInfrastructure("amqp://localhost");
+        ////        Console.WriteLine("debug");
+        ////#else
+        ////        builder.Services.AddRebusInfrastructure("amqp://guest:guest@rabbitmq:5672");
+        ////        Console.WriteLine("release");
+        ////#endif
+
+        //builder.Services.AutoRegisterHandlersFromAssemblyOf<CreateSaleLogRebusHandler>();
+        //builder.Services.AddScoped<IMessageBus, MessageBus>();
+
+        ////entity config
+        //builder.Services.AddDbContext<DefaultDbContext>();
+
+        //builder.Services.AddScoped<ISaleRepository, SaleRepository>();
+        //builder.Services.AddScoped<ISaleItemRepository, SaleItemRepository>();
+        //builder.Services.AddScoped<SaleDiscountService>();
+    }
+
+    private string GetRabbitMQConnectionString(WebApplicationBuilder builder)
+    {
+        // Prioriza variável de ambiente do Docker
+        var dockerHost = Environment.GetEnvironmentVariable("RABBITMQ_HOST");
+        if (!string.IsNullOrEmpty(dockerHost))
+        {
+            return $"amqp://guest:guest@{dockerHost}/";
+        }
+
+        // Caso contrário, usa a configuração do appsettings
+        var connectionString = builder.Configuration.GetConnectionString("RabbitMQ");
+        if (!string.IsNullOrEmpty(connectionString))
+        {
+            return connectionString;
+        }
+
+        // Fallback para localhost
+        return "amqp://guest:guest@localhost:5672/";
     }
 }

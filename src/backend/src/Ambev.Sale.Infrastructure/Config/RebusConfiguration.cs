@@ -8,20 +8,31 @@ namespace Ambev.Sale.Infrastructure.Config
 {
     public static class RebusConfiguration
     {
-        public static IServiceCollection AddRebusInfrastructure(this IServiceCollection services, string rabbitMqConnection)
+        public static void AddRebusInfrastructure(this IServiceCollection services, string connectionString)
         {
             // Registra os handlers do Rebus
-            services.AddRebusHandler<CreateSaleLogRebusHandler>();
+            //services.AddRebusHandler<CreateSaleLogRebusHandler>();
 
-            services.AddRebus((configure, provider) => configure
-                .Transport(t => t.UseRabbitMq(rabbitMqConnection, "sales_event_queue"))
-                .Routing(r =>
+            //services.AddRebus((configure, provider) => configure
+            //    .Transport(t => t.UseRabbitMq(rabbitMqConnection, "sales_event_queue"))
+            //    .Routing(r =>
+            //    {
+            //        var routing = r.TypeBased();
+            //        ConfigureRoutes(routing);                    
+            //    }));
+
+            //return services;
+            services.AddRebus(configure => configure
+                .Transport(t => t.UseRabbitMq(connectionString, "sales_event_queue"))
+                .Routing(r => r.TypeBased()
+                    .Map<CreateSaleCommand>("sales_command_queue")
+                    .Map<CreateSaleEvent>("sales_event_queue"))
+                .Options(o =>
                 {
-                    var routing = r.TypeBased();
-                    ConfigureRoutes(routing);                    
+                    o.SetNumberOfWorkers(1);
+                    o.SetMaxParallelism(1);
+                    o.LogPipeline(verbose: true);
                 }));
-
-            return services;
         }
 
         private static void ConfigureRoutes(TypeBasedRouterConfigurationExtensions.TypeBasedRouterConfigurationBuilder routing)

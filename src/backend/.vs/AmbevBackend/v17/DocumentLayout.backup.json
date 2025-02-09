@@ -1,66 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\",
+  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEB8A825-59A0-4445-BA5F-2C0BA004341F}|src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.core.application\\sales\\modify\\modifysalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEB8A825-59A0-4445-BA5F-2C0BA004341F}|src\\Ambev.Sale.Core.Application\\Ambev.Sale.Core.Application.csproj|solutionrelative:src\\ambev.sale.core.application\\sales\\modify\\modifysalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\ambev.sale.infrastructure\\defaultdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|solutionrelative:src\\ambev.sale.infrastructure\\defaultdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\getlist\\getlistsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\controllers\\sale\\getlist\\getlistsaleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3F8BC1D-9F44-453A-BCD5-E74EBE16ECE9}|src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.core.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3F8BC1D-9F44-453A-BCD5-E74EBE16ECE9}|src\\Ambev.Sale.Core.Domain\\Ambev.Sale.Core.Domain.csproj|solutionrelative:src\\ambev.sale.core.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|Itens de Solu\u00E7\u00E3o{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|Itens de Solu\u00E7\u00E3o{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|Itens de Solu\u00E7\u00E3o{04B23B12-4A6A-4F6C-BB79-D142FBB01B73}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.ioc\\dependencyresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|solutionrelative:src\\ambev.sale.ioc\\dependencyresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.ioc\\moduleinitializers\\infrastructuremoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|solutionrelative:src\\ambev.sale.ioc\\moduleinitializers\\infrastructuremoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.ioc\\moduleinitializers\\webapimoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|solutionrelative:src\\ambev.sale.ioc\\moduleinitializers\\webapimoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.ioc\\moduleinitializers\\applicationmoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|solutionrelative:src\\ambev.sale.ioc\\moduleinitializers\\applicationmoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.ioc\\ambev.sale.ioc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|solutionrelative:src\\ambev.sale.ioc\\ambev.sale.ioc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.ioc\\ambev.sale.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3B6F37D9-BDB2-456C-8422-0782F682F36F}|src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj|solutionrelative:src\\ambev.sale.ioc\\ambev.sale.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8E02570F-D53D-4E4D-B4FA-09EA04430242}|src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:src\\ambev.sale.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\ambev.sale.infrastructure\\ambev.sale.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{70A453D3-7A5D-4455-AF48-A3229F247F76}|src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj|solutionrelative:src\\ambev.sale.infrastructure\\ambev.sale.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,33 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\docker-compose.yml",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\docker-compose.yml",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAtwCYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowB0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-02-08T19:34:42.167Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Program.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T19:44:04.22Z",
-              "IsPinned": true
+              "WhenOpened": "2025-02-09T14:33:45.934Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -125,158 +61,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ModifySaleHandler.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleHandler.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleHandler.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.Core.Application\\Sales\\Modify\\ModifySaleHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwCAAAAAMAAAAAAAAAA==",
+              "Title": "DefaultDbContext.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\DefaultDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.Sale.Infrastructure\\DefaultDbContext.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b8\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\DefaultDbContext.cs",
+              "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\DefaultDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwCcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T21:31:10.835Z",
+              "WhenOpened": "2025-02-09T15:03:06.134Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetListSaleResponse.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\GetList\\GetListSaleResponse.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\GetList\\GetListSaleResponse.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\GetList\\GetListSaleResponse.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\GetList\\GetListSaleResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T21:30:20.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Entities\\Sale.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Core.Domain\\Entities\\Sale.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Core.Domain\\Entities\\Sale.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.Core.Domain\\Entities\\Sale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T21:29:37.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SalesController.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T21:28:10.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependencyResolver.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\DependencyResolver.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Ioc\\DependencyResolver.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\DependencyResolver.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.Ioc\\DependencyResolver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T20:57:03.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationModuleInitializer.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\ModuleInitializers\\ApplicationModuleInitializer.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Ioc\\ModuleInitializers\\ApplicationModuleInitializer.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\ModuleInitializers\\ApplicationModuleInitializer.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.Ioc\\ModuleInitializers\\ApplicationModuleInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T20:42:41.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InfrastructureModuleInitializer.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\ModuleInitializers\\InfrastructureModuleInitializer.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Ioc\\ModuleInitializers\\InfrastructureModuleInitializer.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\ModuleInitializers\\InfrastructureModuleInitializer.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.Ioc\\ModuleInitializers\\InfrastructureModuleInitializer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA9wCAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T19:54:17.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WebApiModuleInitializer.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\ModuleInitializers\\WebApiModuleInitializer.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Ioc\\ModuleInitializers\\WebApiModuleInitializer.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\ModuleInitializers\\WebApiModuleInitializer.cs",
-              "RelativeToolTip": "src\\Ambev.Sale.Ioc\\ModuleInitializers\\WebApiModuleInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T19:39:09.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\appsettings.Development.json",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\appsettings.Development.json",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-08T19:52:54.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Ambev.Sale.Ioc",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
-              "RelativeToolTip": "src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-08T20:39:23.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Ambev.Sale.Ioc.csproj",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
-              "RelativeToolTip": "src\\Ambev.Sale.Ioc\\Ambev.Sale.Ioc.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-08T19:41:56.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Ambev.Sale.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj",
-              "RelativeToolTip": "src\\Ambev.Sale.Infrastructure\\Ambev.Sale.Infrastructure.csproj",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-08T19:40:56.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\Ambev.Sale.WebApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\Ambev.Sale.WebApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-08T19:51:06.289Z"
             }
           ]
         },

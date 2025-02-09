@@ -25,30 +25,29 @@ services:
       - postgres
  
   rabbitmq:
-    image: rabbitmq:4-management  
+    image: rabbitmq:4-management
     container_name: rabbitmq
     ports:
-      - "5672:5672"   
-      - "15672:15672" 
-    environment:
-      RABBITMQ_DEFAULT_USER: guest 
-      RABBITMQ_DEFAULT_PASS: guest 
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   api:
     build:
       context: .
       dockerfile: src/Ambev.Sale.WebApi/Dockerfile
     container_name: Ambev.WebApi.Sale
-    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
     depends_on:
-      - postgres
-      - rabbitmq
-    environment:        
-      # - ASPNETCORE_ENVIRONMENT=Development          
-      - RABBITMQ_CONNECTION=rabbitmq:5672            
+      rabbitmq:
+        condition: service_healthy
     ports:
       - "5000:5000"
-      - "5001:5001" 
 
   # angular:
   #   build:
