@@ -1,2 +1,0 @@
-C:\1 Arquivos\TI\0 - Dev\AppDistribuided\frontend\AppAngular\obj\Debug\AppAngular.esproj.CoreCompileInputs.cache
-C:\1 Arquivos\TI\0 Dev\AppDistribuidedDotNetRabbitAngular\frontend\AppAngular\obj\Debug\AppAngular.esproj.CoreCompileInputs.cache

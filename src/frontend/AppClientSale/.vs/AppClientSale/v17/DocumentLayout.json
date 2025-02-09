@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|solutionrelative:src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|solutionrelative:src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|solutionrelative:src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|solutionrelative:src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\appclientsale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AF5DC97A-FEA6-435A-8DFA-7CC44F2E6A63}|AppClientSale.esproj|solutionrelative:src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "create-sale.component.html",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.html",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.html",
+              "RelativeToolTip": "src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-09T14:11:37.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "create-sale.component.css",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.css",
+              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.css",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.css",
+              "RelativeToolTip": "src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-09T14:11:36.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "create-sale.component.ts",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\dashboard\\sale\\create-sale\\create-sale.component.ts",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAgwIkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-09T14:11:14.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "list-sale.component.html",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html",
+              "RelativeToolTip": "src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-09T13:58:31.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "list-sale.component.ts",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale\\src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\dashboard\\sale\\list-sale\\list-sale.component.ts",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-09T13:57:52.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

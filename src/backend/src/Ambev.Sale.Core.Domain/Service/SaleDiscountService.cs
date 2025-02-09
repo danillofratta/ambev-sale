@@ -33,7 +33,7 @@ namespace Ambev.Sale.Core.Domain.Service
         {
             if (quantity > MAX_QUANTITY)
             {
-                this.IsValid = false;
+                this.IsValid = false;                
                 throw new InvalidOperationException($"Cannot sell more than {MAX_QUANTITY} identical items");
             }
         }
