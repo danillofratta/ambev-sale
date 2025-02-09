@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Ambev.Sale.Core.Domain.Service;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -9,6 +10,7 @@ public class ApplicationModuleInitializer : IModuleInitializer
 {
     public void Initialize(WebApplicationBuilder builder)
     {
-        //builder.Services.AddTransient<IPasswordHasher, BCryptPasswordHasher>();
+        builder.Services.AddTransient<SaleRecalculationService>();
+        builder.Services.AddTransient<SaleDiscountService>();
     }
 }

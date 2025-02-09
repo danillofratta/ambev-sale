@@ -8,20 +8,25 @@ using FluentValidation;
 using AutoMapper;
 using Ambev.Sale.Core.Domain.Repository;
 using Ambev.Sale.Core.Application.Sales.Create;
+using Ambev.Sale.Core.Domain.Entities;
 
 namespace Ambev.Sale.Core.Application.SaleItem.Cancel
 {
     public class CancelSaleItemHandler : IRequestHandler<CancelSaleItemCommand, CancelSaleItemResult>
     {
+        private readonly ISaleRepository _repositorysale;
         private readonly ISaleItemRepository _repository;
         private readonly IMapper _mapper;
         private readonly IMediator _mediator;
+        private readonly SaleRecalculationService _recalculationService;
 
-        public CancelSaleItemHandler(IMediator mediator, ISaleItemRepository repository, IMapper mapper)
+        public CancelSaleItemHandler(ISaleRepository repositorysale, SaleRecalculationService recalculationService, IMediator mediator, ISaleItemRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
             _mediator = mediator;
+            _recalculationService = recalculationService;
+            _repositorysale = repositorysale;
         }
 
         public async Task<CancelSaleItemResult> Handle(CancelSaleItemCommand command, CancellationToken cancellationToken)
@@ -33,13 +38,20 @@ namespace Ambev.Sale.Core.Application.SaleItem.Cancel
             
             var record = await _repository.GetByIdAsync(command.id);            
             record.Status = Ambev.Sale.Core.Domain.Enum.SaleItemStatus.Cancelled;
+
             var update = await _repository.UpdateAsync(record);
+            
+            //after cancel item, recalculate itens of sale and total of sale
+            var sale = await _repositorysale.GetByIdAsync(record.SaleId);
+            _recalculationService.RecalculateSale(sale);
+            await _repositorysale.UpdateAsync(sale);
 
             //publich event 
             await _mediator.Publish(new CancelSaleItemResult
             {
                 id = update.Id
             });
+
             await Task.FromResult("Sale Item Canceled");
 
             return _mapper.Map<CancelSaleItemResult>(update); ;            

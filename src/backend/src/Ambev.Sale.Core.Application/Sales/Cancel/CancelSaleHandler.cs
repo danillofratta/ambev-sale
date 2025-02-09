@@ -8,6 +8,7 @@ using FluentValidation;
 using AutoMapper;
 using Ambev.Sale.Core.Domain.Repository;
 using Ambev.Sale.Core.Application.Sales.Create;
+using Ambev.Sale.Core.Domain.Entities;
 
 namespace Ambev.Sale.Core.Application.Sales.Cancel
 {
@@ -33,7 +34,7 @@ namespace Ambev.Sale.Core.Application.Sales.Cancel
 
             var record = await _repository.GetByIdAsync(command.id);
             record.Status = Ambev.Sale.Core.Domain.Enum.SaleStatus.Cancelled;
-            
+
             var update = await _repository.UpdateAsync(record);
 
             //publich event 
