@@ -14,7 +14,6 @@ namespace Ambev.Sale.Core.Application.Sales.GetList
         {
             CreateMap< Ambev.Sale.Core.Domain.Entities.Sale, GetListSaleQueryResult>()
                    .ForMember(dto => dto.SaleItems, conf => conf.MapFrom(ol => ol.SaleItems));
-
         }
     }
 }

@@ -23,41 +23,46 @@ public class SaleRepository : RepositoryBase<Ambev.Sale.Core.Domain.Entities.Sal
         bool isDescending,
         CancellationToken cancellationToken)
     {
-        IQueryable<Ambev.Sale.Core.Domain.Entities.Sale> query = _DefaultDbContext.Sales;
-        
-        //TODO
-        //if (!string.IsNullOrWhiteSpace(orderBy))
-        //{
-        //    Converte a primeira letra para maiúscula para corresponder à propriedade
-        //    var propertyName = char.ToUpper(orderBy[0]) + orderBy.Substring(1);
+        //IQueryable<Ambev.Sale.Core.Domain.Entities.Sale> query = _DefaultDbContext.Sales;
 
-        //    try
-        //    {
-        //        query = isDescending
-        //            ? query.OrderByDynamic(propertyName + " DESC")
-        //            : query.OrderByDynamic(propertyName + " ASC");
-        //    }
-        //    catch
-        //    {
-        //        Se a propriedade for inválida, usa ordenação padrão
+        IQueryable<Ambev.Sale.Core.Domain.Entities.Sale> query = _DefaultDbContext.Sales
+                    .Include(x => x.SaleItems)
+                    .AsQueryable();
 
-        //       query = query.OrderByDescending(x => x.CreatedAt);
-        //    }
-        //}
-        //else
-        //{
-        //    Ordenação padrão se nenhuma for especificada
-        //   query = query.OrderByDescending(x => x.CreatedAt);
-        //}
+        // Apply ordering if specified
+        if (!string.IsNullOrWhiteSpace(orderBy))
+        {
+            query = orderBy.ToLower() switch
+            {
+                "number" => isDescending
+                    ? query.OrderByDescending(s => s.Number)
+                    : query.OrderBy(s => s.Number),
+                "customername" => isDescending
+                    ? query.OrderByDescending(s => s.CustomerName)
+                    : query.OrderBy(s => s.CustomerName),
+                "totalamount" => isDescending
+                    ? query.OrderByDescending(s => s.TotalAmount)
+                    : query.OrderBy(s => s.TotalAmount),
+                "date" => isDescending
+                    ? query.OrderByDescending(s => s.CreatedAt)
+                    : query.OrderBy(s => s.CreatedAt),
+                _ => query.OrderByDescending(s => s.CreatedAt) // Default ordering
+            };
+        }
+        else
+        {
+            // Default ordering if none specified
+            query = query.OrderByDescending(s => s.CreatedAt);
+        }
 
         var totalCount = await query.CountAsync(cancellationToken);
 
-        var sales = await query
+        var items = await query
             .Skip((pageNumber - 1) * pageSize)
             .Take(pageSize)
             .ToListAsync(cancellationToken);
 
-        return (sales, totalCount);
+        return (items, totalCount);
     }
 
 }

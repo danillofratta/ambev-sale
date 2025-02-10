@@ -14,6 +14,7 @@ using Ambev.Sale.WebApi.Controllers.Sale.Modify;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Ambev.Sale.WebApi.Controllers.Sale.GetList;
 
 namespace Ambev.Sale.WebApi.Controllers.Sale;
 
@@ -67,7 +68,7 @@ public class SalesController : BaseController
             });
         }
         catch (Exception ex)
-        {            
+        {
             return BadRequest(new ApiResponseWithData<CreateSaleResponse>
             {
                 Success = false,
@@ -249,19 +250,48 @@ public class SalesController : BaseController
             [FromQuery] bool isDescending = false,
             CancellationToken cancellationToken = default)
     {
-        var query = new GetListSaleQuery
+        try
         {
-            PageNumber = pageNumber,
-            PageSize = pageSize,
-            //todo
-            OrderBy = orderBy,
-            //todo
-            IsDescending = isDescending
-        };
-        
-        var result = await _mediator.Send(query, cancellationToken);
+            if (pageNumber < 1 || pageSize < 1 || pageSize > 100)
+            {
+                return BadRequest(new ApiResponse
+                {
+                    Success = false,
+                    Message = "Invalid pagination parameters. Page number must be >= 1 and page size must be between 1 and 100."
+                });
+            }
 
-        return Ok(result);
+            var query = new GetListSaleQuery
+            {
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                OrderBy = orderBy,
+                IsDescending = isDescending
+            };
+
+            var result = await _mediator.Send(query, cancellationToken);
+
+            return Ok(new ApiResponseWithData<Core.Application.Sales.GetList.PagedResult<GetListSaleResponse>>
+            {
+                Success = true,
+                Message = "Sales list retrieved successfully",
+                Data = new Core.Application.Sales.GetList.PagedResult<GetListSaleResponse>
+                {
+                    Items = _mapper.Map<List<GetListSaleResponse>>(result.Items),
+                    TotalCount = result.TotalCount,
+                    PageNumber = result.PageNumber,
+                    TotalPages = result.TotalPages
+                }
+            });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new ApiResponse
+            {
+                Success = false,
+                Message = ex.Message
+            });
+        }
     }
 }
 

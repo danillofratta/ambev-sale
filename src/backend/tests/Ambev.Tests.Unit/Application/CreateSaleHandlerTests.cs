@@ -45,6 +45,10 @@ public class CreateSaleHandlerTests
         );
     }
 
+    /// <summary>
+    /// Check if create sale
+    /// </summary>
+    /// <returns></returns>
     [Fact]
     public async Task Handle_Should_Create_Sale_Successfully()
     {               
@@ -61,7 +65,9 @@ public class CreateSaleHandlerTests
         Assert.NotNull(resultget);
     }
 
-
+    /// <summary>
+    /// Check if sala have more then 20 identical itens
+    /// </summary>
     [Fact]
     public void ValidateQuantity_Should_Throw_Exception_When_Exceeding_Max_Quantity()
     {

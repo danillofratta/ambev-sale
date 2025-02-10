@@ -5,6 +5,9 @@ using Bogus;
 
 namespace Ambev.Tests.Unit.Data;
 
+/// <summary>
+/// Create values to test
+/// </summary>
 public static class CreateSaleHandlerTestData
 {
 
