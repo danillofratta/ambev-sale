@@ -1,11 +1,12 @@
 import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
-import { Observable, catchError, finalize, map } from 'rxjs';
+import { Observable, catchError, finalize, map, of } from 'rxjs';
 import { MatTableDataSource } from '@angular/material/table';
-import { MatPaginator } from '@angular/material/paginator';
+import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { SaleApi } from '../../../../../domain/api/SaleApi';
 import { GetSaleResponseDto } from '../../../../../domain/dto/sale/get/GetSaleResponseDto';
 import { Router } from '@angular/router';
 import { CancelSaleResponseDto } from '../../../../../domain/dto/sale/cancel/CancelSaleResponseDto';
+import { ApiResponseDto } from '../../../../../domain/dto/apibase/ApiResponseDto';
 
 @Component({
   selector: 'app-list-sale',
@@ -14,8 +15,13 @@ import { CancelSaleResponseDto } from '../../../../../domain/dto/sale/cancel/Can
 })
 export class ListSaleComponent implements OnInit, AfterViewInit {
 
-  public list$: Observable<GetSaleResponseDto[]> = new Observable<GetSaleResponseDto[]>();
-  
+  length = 0;
+  pageSize = 10;
+  pageIndex = 0;
+
+  //blic list$: Observable<GetSaleResponseDto[]> = new Observable<GetSaleResponseDto[]>();
+  public list$: any[] = [];
+    
   public busy = false;
 
   public _ListError: string[] = [];
@@ -43,41 +49,46 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
     this._ListError = [];
   }
 
+  onPageChange(event: PageEvent): void {
+    this.busy = true;
+    this.pageIndex = event.pageIndex;
+    this.pageSize = event.pageSize;
+    this.LoadList();
+  }
+
   async LoadList() {
 
     await new Promise(resolve => setTimeout(resolve, 3000));
 
     this.busy = true;
-    
-    this.list$ = (await this.Api.GetListAll()).pipe(
-      map(response => response.data.items),
-      catchError((error) => {
-        console.error('Error fetching data:', error);
-        return [];
-      })
-    );
 
-    await this.list$.subscribe({
-      next: (items) => {
-        this.dataSource.data = items;
-        this.busy = false;
+    const observable = await this.Api.GetListAll(this.pageIndex+1, this.pageSize);
+    observable.subscribe({
+      next: (response) => {
+        if (response.success) {
+
+          this.list$ = response.data.data.items;
+          this.length = response.data.data.totalCount;
+          this.pageIndex = response.data.data.pageNumber-1;
+
+          this.paginator.pageIndex = this.pageIndex;
+          this.paginator.length = this.length;
+
+          this.dataSource.data = this.list$;                     
+        } else {
+          this._ListError.push(response.message);
+        }
       },
       error: (error) => {
-        console.error('Error loading data:', error);
+        console.error('Error:', error);
+        this._ListError.push(error.message || 'Erro ao carregar dados');
+      },
+      complete: () => {
         this.busy = false;
       }
     });
-
+    
     this.busy = false;
-  }
-
-  loadDataSource() {
-    this.list$.subscribe(
-      (item) => {
-        this.dataSource.data = item;
-        this.dataSource._renderChangesSubscription;
-      }
-    )
   }
 
   async onCancel(id: string) {

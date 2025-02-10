@@ -7,7 +7,7 @@
   "type": "chrome",
   "request": "launch",
   "url": "http://localhost:56579",
-  "webRoot": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev\\1 branchs\\b7\\ambev-sale\\src\\frontend\\AppClientSale"
+  "webRoot": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\frontend\\AppClientSale"
 }</LaunchJsonTarget>
   </PropertyGroup>
 </Project>

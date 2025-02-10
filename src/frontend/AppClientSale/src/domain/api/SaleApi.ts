@@ -9,6 +9,7 @@ import { GetSaleResponseDto } from '../dto/sale/get/GetSaleResponseDto';
 import { ApiResponseListPaginationDto } from '../dto/apibase/ApiResponseListPaginationDto';
 import { ApiResponseDto } from '../dto/apibase/ApiResponseDto';
 import { CancelSaleResponseDto } from '../dto/sale/cancel/CancelSaleResponseDto';
+import { Observable } from 'rxjs';
 
 
 @Injectable({
@@ -27,11 +28,9 @@ export class SaleApi extends API {
     this._endpoint = "api/v1/sales/";
   }
   
-  async GetListAll() {
-    
-    let filter = "GetList?pageNumber=1&pageSize=10&isDescending=false";
-
-    return this._http.get<ApiResponseListPaginationDto<GetSaleResponseDto[]>>(`${this._baseurl + this._endpoint + filter}`);
+  async GetListAll(pageNumber: number, pageSize: number): Promise<Observable<ApiResponseListPaginationDto<GetSaleResponseDto[]>>> {
+    let filter = "GetList?pageNumber=" + pageNumber + "&pageSize=" + pageSize + "& isDescending=false";
+    return this._http.get<ApiResponseListPaginationDto<GetSaleResponseDto[]>>(`${this._baseurl + this._endpoint + filter}`);    
   }
 
   async GetById(id: string) {

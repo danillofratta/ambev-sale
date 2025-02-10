@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8F81F5-3035-406D-BB8B-DA945BF7BAC0}|backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\0 teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\ambev.sale.webapi\\controllers\\sale\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8F81F5-3035-406D-BB8B-DA945BF7BAC0}|backend\\src\\Ambev.Sale.WebApi\\Ambev.Sale.WebApi.csproj|solutionrelative:backend\\src\\ambev.sale.webapi\\controllers\\sale\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +39,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
+              "RelativeDocumentMoniker": "backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\0 Teste vaga emprego\\dev main\\ambev-sale\\src\\backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
+              "RelativeToolTip": "backend\\src\\Ambev.Sale.WebApi\\Controllers\\Sale\\SalesController.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAcwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T02:01:10.083Z",
+              "EditorCaption": ""
             }
           ]
         },

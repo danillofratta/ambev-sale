@@ -1,23 +1,12 @@
-//export interface ApiResponseListPaginationDto<T> {
-//  data: {
-//    items: T[];
-//    totalCount: number;
-//    pageNumber: number;
-//    totalPages: number;
-//  };
-//  success: boolean;
-//  message: string;
-//  errors: string[];
-//}
+export interface ApiResponseListPaginationDto<T> {
+  items: T[];
+  pageNumber: number;
+  totalCount: number;
+  totalPages: number;
+}
 
 export interface ApiResponseListPaginationDto<T> {
-  data: {
-    items: T;
-    totalCount: number;
-    pageNumber: number;
-    totalPages: number;
-  };
   success: boolean;
   message: string;
-  errors: string[];
+  data: ApiResponseListPaginationDto<T>;
 }
