@@ -107,16 +107,14 @@ export class ListSaleComponent implements OnInit, AfterViewInit {
       error: (error) => {
         console.error('Error occurred:', error);
         
-        this._ListError.push(error.error.message);
+        this._ListError.push(error.error.message);     
       },
       complete: () => {
-        this.busy = false; 
+        
       }
     });
     
-    this.LoadList();
-
-    this.busy = false;
+    this.LoadList();    
   }
 
   async onModify(id: string) {
