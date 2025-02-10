@@ -1,6 +1,5 @@
 ﻿using Ambev.Sale.Core.Application.Sales.Create;
 using AutoMapper;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Ambev.Sale.WebApi.Controllers.Sale.Create
 {

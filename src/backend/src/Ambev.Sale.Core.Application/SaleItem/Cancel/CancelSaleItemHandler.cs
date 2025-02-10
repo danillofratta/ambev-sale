@@ -1,14 +1,7 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FluentValidation;
 using AutoMapper;
 using Ambev.Sale.Core.Domain.Repository;
-using Ambev.Sale.Core.Application.Sales.Create;
-using Ambev.Sale.Core.Domain.Entities;
 
 namespace Ambev.Sale.Core.Application.SaleItem.Cancel
 {
@@ -44,6 +37,7 @@ namespace Ambev.Sale.Core.Application.SaleItem.Cancel
             //after cancel item, recalculate itens of sale and total of sale
             var sale = await _repositorysale.GetByIdAsync(record.SaleId);
             _recalculationService.RecalculateSale(sale);
+            //save sale with new total
             await _repositorysale.UpdateAsync(sale);
 
             //publich event 

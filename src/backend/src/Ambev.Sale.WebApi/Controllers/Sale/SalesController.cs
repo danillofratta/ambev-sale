@@ -1,5 +1,4 @@
-﻿using Ambev.Sale.Common.Validation;
-using Ambev.Sale.Core.Application.Sales.Cancel;
+﻿using Ambev.Sale.Core.Application.Sales.Cancel;
 using Ambev.Sale.Core.Application.Sales.Create;
 using Ambev.Sale.Core.Application.Sales.Get;
 using Ambev.Sale.Core.Application.Sales.GetList;
@@ -15,12 +14,13 @@ using Ambev.Sale.WebApi.Controllers.Sale.Modify;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Rebus.Messages;
-using System;
 
 namespace Ambev.Sale.WebApi.Controllers.Sale;
 
+/// <summary>
+/// Sale EndPoint
+/// TODO: create versioning 
+/// </summary>
 [ApiController]
 [Route("api/v1/[controller]")]
 public class SalesController : BaseController
@@ -36,6 +36,12 @@ public class SalesController : BaseController
         _repository = repository;
     }
 
+    /// <summary>
+    /// creates the sale and generates the item discounts and calculates the total sale
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost]
     [ProducesResponseType(typeof(ApiResponseWithData<CreateSaleResponse>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
@@ -61,9 +67,7 @@ public class SalesController : BaseController
             });
         }
         catch (Exception ex)
-        {
-            //return BadRequest(ex.Message);
-
+        {            
             return BadRequest(new ApiResponseWithData<CreateSaleResponse>
             {
                 Success = false,
@@ -71,9 +75,14 @@ public class SalesController : BaseController
             });
         }
     }
-    
 
 
+    /// <summary>
+    /// Responsible for changing only the sales data
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPut]
     [ProducesResponseType(typeof(ApiResponseWithData<ModifySaleResponse>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
@@ -91,12 +100,10 @@ public class SalesController : BaseController
             var command = _mapper.Map<ModifySaleCommand>(request);
             var response = await _mediator.Send(command, cancellationToken);
 
-            //return _mapper.Map<ModifySaleResponse>(response);
-
             return Created(string.Empty, new ApiResponseWithData<ModifySaleResponse>
             {
                 Success = true,
-                Message = "User modified successfully",
+                Message = "Sale modified successfully",
                 Data = _mapper.Map<ModifySaleResponse>(response)
             });
         }
@@ -110,6 +117,12 @@ public class SalesController : BaseController
         }
     }
 
+    /// <summary>
+    /// Responsible for physically deleting the sale
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpDelete]
     public async Task<IActionResult> DeleteSale([FromBody] DeleteSaleRequest request, CancellationToken cancellationToken)
     {
@@ -141,7 +154,12 @@ public class SalesController : BaseController
         }
     }
 
-
+    /// <summary>
+    /// Responsible for cancel the sale, chance your status
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPut("Cancel")]
     public async Task<IActionResult> CancelSale([FromBody] CancelSaleRequest request, CancellationToken cancellationToken)
     {
@@ -173,7 +191,12 @@ public class SalesController : BaseController
         }
     }
 
-
+    /// <summary>
+    /// Responsible to return sale and yours itens
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpGet("{id}")]
     [ProducesResponseType(typeof(ApiResponseWithData<GetSaleResponse>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
@@ -209,6 +232,15 @@ public class SalesController : BaseController
         }
     }
 
+    /// <summary>
+    /// Responsible to return list of sale 
+    /// </summary>
+    /// <param name="pageNumber"></param>
+    /// <param name="pageSize"></param>
+    /// <param name="orderBy"></param>
+    /// <param name="isDescending"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpGet("GetList")]
     public async Task<IActionResult> GetListSale(
             [FromQuery] int pageNumber = 1,
@@ -221,11 +253,12 @@ public class SalesController : BaseController
         {
             PageNumber = pageNumber,
             PageSize = pageSize,
+            //todo
             OrderBy = orderBy,
+            //todo
             IsDescending = isDescending
         };
-
-        //todo map dont work
+        
         var result = await _mediator.Send(query, cancellationToken);
 
         return Ok(result);

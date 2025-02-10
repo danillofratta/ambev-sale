@@ -1,7 +1,6 @@
 ﻿using Ambev.Sale.Core.Domain;
 using Ambev.Sale.Infrastructure.ORM;
 
-
 namespace Ambev.Sale.Infrastructure.Common
 {
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
@@ -12,6 +11,7 @@ namespace Ambev.Sale.Infrastructure.Common
         {
             _DefaultDbContext = defaultDbContext;
         }
+        //TODO ADD redis
         //protected readonly IRedisCacheService _RedisCacheService;
 
         //public RepositoryBase(DBDevContext appDbContext, IRedisCacheService redisCacheService)

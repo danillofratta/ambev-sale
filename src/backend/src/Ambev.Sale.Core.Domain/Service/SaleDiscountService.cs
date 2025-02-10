@@ -7,6 +7,16 @@ using System.Threading.Tasks;
 
 namespace Ambev.Sale.Core.Domain.Service
 {
+    /// <summary>
+    /// Implements the business rule
+    /// These business rules define quantity-based discounting tiers and limitations:
+    /// 1. Discount Tiers: 
+    ///- 4+ items: 10% discount
+    ///- 10-20 items: 20% discount
+    ///2. Restrictions: 
+    ///- Maximum limit: 20 items per product
+    ///- No discounts allowed for quantities below 4 items[
+    /// </summary>
     public class SaleDiscountService
     {
         private const int MIN_DISCOUNT_QUANTITY = 4;
@@ -16,6 +26,12 @@ namespace Ambev.Sale.Core.Domain.Service
         private const decimal BULK_DISCOUNT = 0.20m;
         public bool IsValid = true;
 
+        /// <summary>
+        /// Calculate discount according to rule
+        /// </summary>
+        /// <param name="quantity"></param>
+        /// <param name="unitPrice"></param>
+        /// <returns></returns>
         public decimal CalculateItemDiscount(int quantity, decimal unitPrice)
         {
             ValidateQuantity(quantity);
@@ -29,6 +45,11 @@ namespace Ambev.Sale.Core.Domain.Service
             return totalPrice * discountPercentage;
         }
 
+        /// <summary>
+        /// Validates if there are more than 20 items of the product
+        /// </summary>
+        /// <param name="quantity"></param>
+        /// <exception cref="InvalidOperationException"></exception>
         public void ValidateQuantity(int quantity)
         {
             if (quantity > MAX_QUANTITY)
@@ -38,6 +59,10 @@ namespace Ambev.Sale.Core.Domain.Service
             }
         }
 
+        /// <summary>
+        /// Valid all sale itens
+        /// </summary>
+        /// <param name="items"></param>
         public void ValidateSaleItems(IEnumerable<SaleItem> items)
         {
             var groupedItems = items.GroupBy(x => x.ProductId);

@@ -6,22 +6,14 @@ using Rebus.Routing.TypeBased;
 
 namespace Ambev.Sale.Infrastructure.Config
 {
+    /// <summary>
+    /// Configuration of Rebus
+    /// </summary>
     public static class RebusConfiguration
     {
         public static void AddRebusInfrastructure(this IServiceCollection services, string connectionString)
         {
-            // Registra os handlers do Rebus
-            //services.AddRebusHandler<CreateSaleLogRebusHandler>();
-
-            //services.AddRebus((configure, provider) => configure
-            //    .Transport(t => t.UseRabbitMq(rabbitMqConnection, "sales_event_queue"))
-            //    .Routing(r =>
-            //    {
-            //        var routing = r.TypeBased();
-            //        ConfigureRoutes(routing);                    
-            //    }));
-
-            //return services;
+            ///add endpoit test create sale
             services.AddRebus(configure => configure
                 .Transport(t => t.UseRabbitMq(connectionString, "sales_event_queue"))
                 .Routing(r => r.TypeBased()

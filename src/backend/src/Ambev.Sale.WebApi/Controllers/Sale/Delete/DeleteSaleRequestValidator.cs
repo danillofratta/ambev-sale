@@ -1,13 +1,8 @@
 using Ambev.Sale.Core.Domain.Repository;
-using Ambev.Sale.WebApi.Controllers.Sale.Create;
-using Ambev.Sale.WebApi.Controllers.Sale.Modify;
 using FluentValidation;
 
 namespace Ambev.Sale.WebApi.Controllers.Sale.Delete;
 
-/// <summary>
-/// Validator for GetUserRequest
-/// </summary>
 public class DeleteSaleRequestValidator : AbstractValidator<DeleteSaleRequest>
 {
     private readonly ISaleRepository _repository;

@@ -1,12 +1,16 @@
 ## Instructions
 
-Implementation was carried out according to the suggested template standard. There were some questions about business rules such as whether the sale's modify endpoint could also change the items.
+The implementation was carried out according to the suggested model standard.
 
-All sales CRUD functionalities were implemented. The sale item cancellation and get endpoints were implemented. During cancellation, the discount recalculation of the sale items and also of the total sale was implemented.
+There were some questions regarding the rules, such as whether the ModifySale could also change the item data, and some other issues like this.
+
+All the sales CRUD functionalities were implemented.
+
+The cancellation of the sales item was implemented as a rule to recalculate the items and also the total sale.
 
 Redus was implemented in SaleCreate with log and SaleModified, SaleCancelled, ItemCancelled Event with log.
 
-A basic screen was created that lists the sales and also registers the sale.
+A basic screen was created that lists sales and also records the sale.
 
 ## Instructions for running
 
@@ -18,7 +22,7 @@ A basic screen was created that lists the sales and also registers the sale.
 * Step 3: run script	
     * docker compose up --build
 
-# Run migration:
+# Run Migration:
 * Step 1: go to ambev-sale\src\backend\src\Ambev.Sale.Infrastructure
 * Step 2: open terminal
 * Step 3: run scripts

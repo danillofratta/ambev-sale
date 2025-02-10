@@ -25,6 +25,7 @@ public class SaleRepository : RepositoryBase<Ambev.Sale.Core.Domain.Entities.Sal
     {
         IQueryable<Ambev.Sale.Core.Domain.Entities.Sale> query = _DefaultDbContext.Sales;
         
+        //TODO
         //if (!string.IsNullOrWhiteSpace(orderBy))
         //{
         //    Converte a primeira letra para maiúscula para corresponder à propriedade

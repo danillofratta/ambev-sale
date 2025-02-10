@@ -1,13 +1,8 @@
 ﻿using Ambev.Sale.Core.Domain.Messaging;
 using Rebus.Bus;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ambev.Sale.Infrastructure.Config
-{
+{    
     public class MessageBus : IMessageBus
     {
         private readonly IBus _bus;

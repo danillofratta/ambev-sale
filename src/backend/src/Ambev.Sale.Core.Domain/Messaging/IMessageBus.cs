@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ambev.Sale.Core.Domain.Messaging
 {
+    /// <summary>
+    /// interface to publish and receive notifications/messages
+    /// </summary>
     public interface IMessageBus
     {
         Task PublishEvent<T>(T @event) where T : class;

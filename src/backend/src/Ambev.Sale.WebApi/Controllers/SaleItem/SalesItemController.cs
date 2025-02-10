@@ -16,6 +16,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Ambev.Sale.WebApi.Controllers.SaleItem;
 
+/// <summary>
+/// Sale EndPoint
+/// TODO: create versioning 
+/// </summary>
 [ApiController]
 [Route("api/v1/[controller]")]
 public class SalesItemController : ControllerBase
@@ -29,20 +33,19 @@ public class SalesItemController : ControllerBase
         _mapper = mapper;
     }
 
-
+    /// <summary>
+    /// Responsible for canceling the item from sale, also recalculating the discount on the items and the total sale.
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPut("Cancel")]
     [ProducesResponseType(typeof(ApiResponseWithData<CancelSaleItemResponse>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> CancelItemSale([FromBody] CancelSaleItemRequest request, CancellationToken cancellationToken)
     {
-        //var validator = new CreateUserRequestValidator();
-        //var validationResult = await validator.ValidateAsync(request, cancellationToken);
-
-        //if (!validationResult.IsValid)
-        //return BadRequest(validationResult.Errors);
-
-        //todo call validador from command
+        //todo validators
 
         var command = _mapper.Map<CancelSaleItemCommand>(request);
         var response = await _mediator.Send(command, cancellationToken);
@@ -55,6 +58,12 @@ public class SalesItemController : ControllerBase
         });
     }
 
+    /// <summary>
+    /// Responsible to return item of sale
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpGet("{id}")]
     [ProducesResponseType(typeof(ApiResponseWithData<GetSaleItemResponse>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]

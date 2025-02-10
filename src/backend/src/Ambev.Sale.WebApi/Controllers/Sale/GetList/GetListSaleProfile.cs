@@ -1,6 +1,5 @@
 ﻿using Ambev.Sale.Core.Application.Sales.GetList;
 using AutoMapper;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Ambev.Sale.WebApi.Controllers.Sale.GetList;
 

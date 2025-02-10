@@ -52,29 +52,4 @@ public class DefaultDbContext : DbContext
     }
 }
 
-//public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<DefaultDbContext>
-//{
-//    public DefaultDbContext CreateDbContext(string[] args)
-//    {
-//        // Configurar o IConfiguration para ler o appsettings
-//        IConfigurationRoot configuration = new ConfigurationBuilder()
-//            .SetBasePath(Directory.GetCurrentDirectory())
-//            .AddJsonFile("appsettings.Development.json", optional: false)
-//            .Build();
-
-//        var optionsBuilder = new DbContextOptionsBuilder<DefaultDbContext>();
-
-//        // Pegar a connection string do appsettings
-//        var connectionString = configuration.GetConnectionString("DefaultConnection");
-
-//        optionsBuilder.UseNpgsql(connectionString);
-
-//        // Criar uma instância do logger (necessário porque seu DbContext requer um)
-//        var loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
-//        var logger = loggerFactory.CreateLogger<DefaultDbContext>();
-
-//        return new DefaultDbContext(optionsBuilder.Options, logger);
-//    }
-//}
-
 

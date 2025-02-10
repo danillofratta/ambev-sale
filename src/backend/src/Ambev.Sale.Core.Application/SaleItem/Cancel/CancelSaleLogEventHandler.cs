@@ -1,12 +1,5 @@
-﻿using Ambev.Sale.Core.Application.Sales.Cancel;
-using MediatR;
+﻿using MediatR;
 using Microsoft.Extensions.Logging;
-using Rebus.Messages;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ambev.Sale.Core.Application.SaleItem.Cancel
 {
